@@ -1,6 +1,5 @@
 package homework;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -77,6 +76,7 @@ class CustomerTest {
         //when
             Map.Entry<Customer, String> smallestScore = customerService.getSmallest();
        //then
+
         assertThat(smallestScore.getKey()).isEqualTo(customer2);
 
         //when
