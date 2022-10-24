@@ -7,7 +7,7 @@ public class Customer {
     private String  name;
     private  final long scores;
 
-    //todo: 1. в этом классе надо исправить ошибки
+    //todo: 1. РІ СЌС‚РѕРј РєР»Р°СЃСЃРµ РЅР°РґРѕ РёСЃРїСЂР°РІРёС‚СЊ РѕС€РёР±РєРё
 
     public  Customer(long id, String name, long scores) {
 
