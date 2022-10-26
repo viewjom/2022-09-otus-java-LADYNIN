@@ -1,2 +1,3 @@
 rootProject.name = '2022-09-otus-java-LADYNIN'
 include 'L04-generics'
+include 'L08-gc'
