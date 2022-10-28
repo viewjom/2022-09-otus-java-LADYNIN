@@ -4,13 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Summator {
-    private Integer sum = 0;
-    private Integer prevValue = 0;
-    private Integer prevPrevValue = 0;
-    private Integer sumLastThreeValues = 0;
-    private Integer someValue = 0;
+    private int sum = 0;
+    private int prevValue = 0;
+    private int prevPrevValue = 0;
+    private int sumLastThreeValues = 0;
+    private int someValue = 0;
 
-    private Integer iFor = 0;
 
     private final List<Data> listValues = new ArrayList<>();
 
@@ -26,43 +25,32 @@ public class Summator {
 
         prevPrevValue = prevValue;
         prevValue = data.getValue();
-         iFor = (sumLastThreeValues * sumLastThreeValues / (data.getValue() + 1) - sum);
-       /* for (var idx = 0; idx < 3; idx++) {
+
+        for (var idx = 0; idx < 3; idx++) {
             someValue += (sumLastThreeValues * sumLastThreeValues / (data.getValue() + 1) - sum);
             someValue = Math.abs(someValue) + listValues.size();
-            //someValue = someValue & 0x7fffffff+ listValues.size();
-        }*/
 
-               //512 spend msec:15021, sec:15
-               //256 Execution failed for task ':L08-gc:CalcDemo.main()'.
-                //someValue =  (Math.abs(iFor * 2)  + iFor) + listValues.size()*3;
-
-        //256 spend msec:18117, sec:18
-        //512 spend msec:14965, sec:14
-         someValue = ((iFor * 2) & 0x7fffffff + iFor) + listValues.size()*3;
-
-
-
+        }
 
     }
 
-    public Integer getSum() {
+    public int getSum() {
         return sum;
     }
 
-    public Integer getPrevValue() {
+    public int getPrevValue() {
         return prevValue;
     }
 
-    public Integer getPrevPrevValue() {
+    public int getPrevPrevValue() {
         return prevPrevValue;
     }
 
-    public Integer getSumLastThreeValues() {
+    public int getSumLastThreeValues() {
         return sumLastThreeValues;
     }
 
-    public Integer getSomeValue() {
+    public int getSomeValue() {
         return someValue;
     }
 }
