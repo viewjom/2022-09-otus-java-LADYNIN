@@ -1,28 +1,17 @@
 plugins {
     id 'java'
+    id 'com.github.johnrengelman.shadow'
 }
 
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
 dependencies {
-    testImplementation ('org.junit.jupiter:junit-jupiter-api')
-    testImplementation ('org.junit.jupiter:junit-jupiter-engine')
-    testImplementation ('org.assertj:assertj-core')
-    testImplementation ('org.mockito:mockito-core')
-    testImplementation ('org.mockito:mockito-junit-jupiter')
 }
 
-test {
-    useJUnitPlatform()
-    testLogging {
-        events "passed", "skipped", "failed"
-    }
+shadowJar {
+    archiveBaseName.set('lesson03')
+    archiveVersion.set('0.1')
 }
 
-tasks.withType(JavaCompile) {
-    options.with {
-        //  encoding = 'WINDOWS-1251'
-        encoding = 'UTF-8'
-    }
-}
+tasks.build.dependsOn tasks.shadowJar
