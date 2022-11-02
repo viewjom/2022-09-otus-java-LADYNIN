@@ -20,6 +20,7 @@ public class TestExample {
     public void test2() {
         if (true) {
             throw new RuntimeException();
+           // System.out.println("test2");
         }
     }
 

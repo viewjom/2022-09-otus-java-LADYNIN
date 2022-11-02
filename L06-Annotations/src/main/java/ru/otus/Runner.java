@@ -7,17 +7,19 @@ import ru.otus.annotations.Test;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.Objects;
+import java.lang.annotation.Annotation;
+
 import java.util.function.Predicate;
 
 public class Runner {
 
-    private int executed;
-    private int passed;
-    private int failed;
+    private Method beforeMethod = null;
+    private Method afterMethod = null;
+    private Record r = new Record();
 
     //@Override
-    public void run(final String className) throws ClassNotFoundException {
-      //  final Class<?> clazz = getClassForName(className);
+    void run(final String className) throws ClassNotFoundException {
+
         final Class<?> clazz =  Class.forName(className);
         final Method[] methods = Objects.requireNonNull(clazz).getMethods();
 
@@ -27,40 +29,32 @@ public class Runner {
         //Before.class
         final Predicate<Method> predBefore = (method) -> method.isAnnotationPresent(Before.class);
         final Method[] beforeMethods = Arrays.stream(methods).filter(predBefore).toArray(Method[]::new);
-        Method beforeMethod;
 
-        //Before.class
+
+        //After.class
         final Predicate<Method> predAfter = (method) -> method.isAnnotationPresent(After.class);
         final Method[] afterMethods = Arrays.stream(methods).filter(predAfter).toArray(Method[]::new);
-        Method afterMethod;
 
-         try{
-          beforeMethod = beforeMethods[0];
-            } catch (ArrayIndexOutOfBoundsException e) {
-             beforeMethod = null;
-         }
+        if (beforeMethods[0] != null){
+            beforeMethod = beforeMethods[0];;
+        }
 
-
-        try{
-             afterMethod = afterMethods[0];
-         } catch (ArrayIndexOutOfBoundsException e) {
-             afterMethod = null;
-         }
-
-
-
+        if (afterMethods[0] != null){
+            afterMethod = afterMethods[0];
+        }
 
         for (Method testMethod : testMethods) {
             executeTest(clazz, beforeMethod, afterMethod, testMethod);
         }
 
-        final String result = String.format("executed: %s, passed: %s, failed: %s", executed, passed, failed);
+        final String result = String.format("executed: %s, passed: %s, failed: %s", r.getExecuted(), r.getPassed(), r.getFailed());
 
         System.out.println("All tests are finished");
         System.out.println(result);
     }
 
     private <T> void executeTest(final Class<T> clazz, final Method beforeMethod, final Method afterMethod, final Method testMethod) {
+
         try {
             final T testObject = clazz.getDeclaredConstructor().newInstance();
 
@@ -70,16 +64,19 @@ public class Runner {
 
             testMethod.invoke(testObject);
 
-            if (!Objects.isNull(beforeMethod)) {
+
+            if (!Objects.isNull(afterMethod)) {
                 afterMethod.invoke(testObject);
             }
+            r.addPassed();
 
-            passed++;
         } catch (Exception e) {
             e.printStackTrace();
-            failed++;
+            r.addFailed();
+
         } finally {
-            executed++;
+            r.addExecuted();
+
         }
     }
 }
