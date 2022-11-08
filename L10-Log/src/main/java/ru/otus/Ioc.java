@@ -1,16 +1,13 @@
 package ru.otus;
 
-import ru.otus.calculator.TestLogging;
 import ru.otus.calculator.TestLoggingInterface;
 import ru.otus.proxy.Log;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-
 import java.util.Arrays;
 import java.util.List;
-
 import java.util.stream.Collectors;
 
 public class Ioc {
@@ -18,26 +15,23 @@ public class Ioc {
     private Ioc() {
     }
 
-    static TestLoggingInterface createMyClass() {
-        InvocationHandler handler = new DemoInvocationHandler(new TestLogging());
+    @SuppressWarnings("unchecked")
+    static <T> T createMyClass(T testLogging) {
+        InvocationHandler handler = new DemoInvocationHandler(testLogging);
 
-
-        return (TestLoggingInterface) Proxy.newProxyInstance(Ioc.class.getClassLoader(),
+        return (T) Proxy.newProxyInstance(Ioc.class.getClassLoader(),
                 new Class<?>[]{TestLoggingInterface.class}, handler);
     }
 
     static class DemoInvocationHandler implements InvocationHandler {
-        private final TestLoggingInterface myClass;
+        private final Object myClass;
         private final List<Method> logMethods;
 
-
-
-        DemoInvocationHandler(TestLoggingInterface myClass) {
+        DemoInvocationHandler(Object myClass) {
             this.myClass = myClass;
             this.logMethods = Arrays.stream(myClass.getClass().getMethods())
                     .filter((lmethod) -> lmethod.isAnnotationPresent(Log.class))
                     .collect(Collectors.toList());
-
         }
 
         @Override
