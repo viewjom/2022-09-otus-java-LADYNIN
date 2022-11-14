@@ -1,16 +1,9 @@
 package ru.otus;
 
-public class Record {
-    private int passed;
-    private int failed;
-    private int executed;
-    public  Record() {
-
-        this.passed = 0;
-        this.failed = 0;
-        this.executed = 0;
-
-    }
+public record  Record() {
+    private static int passed;
+    private static int failed;
+    private static int executed;
 
     public void addPassed() {
          this.passed++;
