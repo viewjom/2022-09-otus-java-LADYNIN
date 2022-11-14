@@ -6,15 +6,15 @@ public record  Record() {
     private static int executed;
 
     public void addPassed() {
-         this.passed++;
+         passed++;
     }
 
     public void addFailed() {
-        this.failed++;
+        failed++;
     }
 
     public void addExecuted() {
-        this.executed++;
+        executed++;
     }
 
     public int getPassed() {
