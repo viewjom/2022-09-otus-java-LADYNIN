@@ -32,7 +32,7 @@ public class ATM {
         long outSum = 0;
         // byte bCount = 0;
         if (getTotal() < sum) {
-            throw new RuntimeException("Not enough banknotes at the ATM!");
+            throw new RuntimeException("Недостаточно банкнот в банкомате!");
         }
 
        /* cells.stream()
@@ -61,9 +61,11 @@ public class ATM {
         }
 
         if (outSum == sum) {
+            cells.forEach(CellInterface::commit);
             return outNominals;
         } else {
-            throw new RuntimeException("Please enter a different amount!");
+            cells.forEach(CellInterface::rollback);
+            throw new RuntimeException("Пожалуйста, введите другую сумму!");
         }
     }
 }

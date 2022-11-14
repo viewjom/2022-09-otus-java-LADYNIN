@@ -9,4 +9,7 @@ public interface CellInterface {
     long getNominal();
 
     void extractNominal();
+
+    void commit();
+    void rollback();
 }

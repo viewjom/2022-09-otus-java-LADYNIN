@@ -140,7 +140,7 @@ public class TestATM {
     void print() {
         System.out.println("------------- @AfterEach------------------");
         for (Integer nominal:nominals){
-            System.out.println("Given out Banknote of nominal: " + nominal);
+            System.out.println("Выдана банкнота номиналом: " + nominal);
         }
     }
     }
