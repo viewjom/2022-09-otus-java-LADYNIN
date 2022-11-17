@@ -2,12 +2,21 @@ package ru.otus.atm;
 
 
 public class Cell implements CellInterface {
-    private final long nominal;
+    private long nominal = 0;
     private long amount = 0;
-    private long amount_interim = -1000;
+    private long amount_interim = 0;
 
     public Cell(long nominal) {
-        this.nominal = nominal;
+        for(Nominals n : Nominals.values())
+        {
+            if (n.getNNominal() == nominal) {
+                this.nominal = nominal;
+                break;
+            }
+        }
+        if (this.nominal == 0) {
+            System.out.println("Нет ячеек номиналом " + nominal + ".");
+        }
     }
 
     @Override
@@ -26,23 +35,12 @@ public class Cell implements CellInterface {
 
     @Override
     public void extractNominal() {
-        if (amount_interim < 0) {
-            amount_interim = amount;
-        }
         amount_interim--;
     }
 
     @Override
     public void commit() {
-        if (amount_interim != -1000) {
-            amount = amount_interim;
-        }
-        amount_interim = -1000;
-    }
-
-    @Override
-    public void rollback() {
-        amount_interim = -1000;
+        amount = amount + amount_interim;
     }
 
     @Override

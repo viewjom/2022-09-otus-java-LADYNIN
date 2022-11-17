@@ -17,8 +17,31 @@ public class ATM {
 
     }
 
-    public void insertBanknotes(int nominal, int amount) {
-        cells.stream().filter(n -> n.getNominal() == nominal).forEach(b -> b.addBanknote(amount));
+    public void insertBanknotes(int nominal, int amount) throws RuntimeException {
+
+        for(CellInterface cell : cells)
+        {
+            if(cell.getNominal() == nominal)
+            {
+                cell.addBanknote(amount);
+                return;
+            }
+
+        }
+        throw new RuntimeException("Отсутствует ячейка номиналом " + nominal + ".");
+
+/*
+        cells.stream().filter(nn -> nn.getNominal() == nominal).
+                findAny().orElseThrow(() -> new IllegalStateException("Отсутствует ячейка номиналом " + nominal + '.')).addBanknote(amount);
+*/
+
+        /*cells.stream().filter(n -> n.getNominal() == nominal).
+                forEach(b -> b.addBanknote(amount));
+*/
+
+        //.forEach(b -> b.addBanknote(amount));
+
+
     }
 
     public long getTotal() {
@@ -42,8 +65,9 @@ public class ATM {
 
         //Перебираем ячейки начиная с максимального номинала
         for (CellInterface cell : cells.stream()
-                .sorted(Comparator.comparingInt(Object::hashCode).reversed()).toList()) {
-
+                .sorted(Comparator.comparing(CellInterface::getNominal).reversed()).toList()
+        ) {
+            System.out.println("Go to Nominal " + cell.getNominal());
 
             if (cell.getNominal() <= sum) {
                 //System.out.println("Go to Nominal " + cell.getNominal());
@@ -64,7 +88,7 @@ public class ATM {
             cells.forEach(CellInterface::commit);
             return outNominals;
         } else {
-            cells.forEach(CellInterface::rollback);
+            //cells.forEach(CellInterface::rollback);
             throw new RuntimeException("Пожалуйста, введите другую сумму!");
         }
     }

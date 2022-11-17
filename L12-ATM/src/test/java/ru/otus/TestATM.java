@@ -136,6 +136,29 @@ public class TestATM {
         assertThat(remainder).isEqualTo(6940);
     }
 
+    @Test //Попытка забрать денег больше чем есть в АТМ
+    void getError() {
+        System.out.println("------------- @Test5------------------");
+        atm.insertBanknotes(51,5);
+        atm.insertBanknotes(10,4);
+        atm.insertBanknotes(100,7);
+        atm.insertBanknotes(500,4);
+        atm.insertBanknotes(1000,2);
+        atm.insertBanknotes(2000,1);
+
+        long atmSum = atm.getTotal();
+
+        System.out.println("atmSum " + atmSum);
+
+      //  assertThat(atmSum).isEqualTo(6991);
+
+        nominals = atm.getMoney(7001);
+
+      //  final var remainder = atm.getTotal();
+
+        //assertThat(remainder).isEqualTo(6940);
+    }
+
     @AfterEach
     void print() {
         System.out.println("------------- @AfterEach------------------");

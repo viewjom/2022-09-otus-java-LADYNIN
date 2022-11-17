@@ -11,5 +11,5 @@ public interface CellInterface {
     void extractNominal();
 
     void commit();
-    void rollback();
+  //  void rollback();
 }
