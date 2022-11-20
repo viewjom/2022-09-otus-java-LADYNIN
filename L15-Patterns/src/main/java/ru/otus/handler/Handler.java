@@ -1,4 +1,4 @@
-ackage ru.otus.handler;
+package ru.otus.handler;
 
 import ru.otus.model.Message;
 import ru.otus.listener.Listener;
