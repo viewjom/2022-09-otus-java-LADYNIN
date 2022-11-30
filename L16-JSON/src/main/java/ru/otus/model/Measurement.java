@@ -3,8 +3,8 @@ package ru.otus.model;
 
 //Допустим, этот класс библиотечный, его нельзя менять
 public final class Measurement {
-    private final String name;
-    private final double value;
+    private /*final*/ String name;
+    private /*final*/ double value;
 
     public Measurement(String name, double value) {
         this.name = name;
