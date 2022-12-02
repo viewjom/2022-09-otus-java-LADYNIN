@@ -1,63 +1,49 @@
 package ru.otus.dataprocessor;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectReader;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import ru.otus.model.Measurement;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class ResourcesFileLoader implements Loader {
-    //private final String fileName;
-    //private List<Measurement> list = new ArrayList<>();
+
     private final ObjectMapper mapper = new ObjectMapper();
-    private List<Measurement> readJson = null;
     private String myJson = "";
 
     public ResourcesFileLoader(String fileName) throws IOException {
+
         try (var bufferedReader = new BufferedReader(new FileReader("G:\\otus\\2022-09-otus-java-LADYNIN\\L16-JSON\\src\\test\\resources\\" + fileName))) {
             System.out.println("text from the file:");
             String line;
             while ((line = bufferedReader.readLine()) != null) {
-                System.out.println(line);
-
-                this.myJson = line;
-
+                this.myJson += line;
             }
         }
     }
-
     @Override
     public List<Measurement> load() throws IOException {
-        //читает файл, парсит и возвращает результат
 
-        // System.out.println("rrrrrrrrr %" + myJson+"%");
+        Gson gson = new Gson();
+        Type empTypeList = new TypeToken<ArrayList<Measurement>>() {
+        }.getType();
 
-         //readJson.add(mapper.readValue(myJson, new TypeReference<>(){}));
+        try {
 
-     //   for(List<Measurement> s : mapper.readValue(myJson, Measurement.class))
+            List<Measurement> list = gson.fromJson(myJson, empTypeList);
+            return list;
 
-    /*    for (Measurement name : readJson) {
-            System.out.print(name.getName());
-
+        } catch (Exception ex) {
+            ex.printStackTrace();
         }
-*/
 
-      /*  ObjectReader reader = mapper.readerForListOf(Measurement.class);
-        var list = new ArrayList<Measurement>();
-        for (ObjectReader jsonNode : reader) {
-
-            jsonNode.getAttributes()
-            System.out.println("mapper: " +mapper.treeToValue(jsonNode, Measurement.class).getName());
-            //list.add(mapper.treeToValue(jsonNode, Measurement.class));
-        }
-*/
-      //  System.out.println("Размер  JSON" +readJson.size());
-        return null;//list;
+        return null;
     }
 }

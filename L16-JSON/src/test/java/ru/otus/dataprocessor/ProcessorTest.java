@@ -25,26 +25,28 @@ class ProcessorTest {
 
         //given
         var inputDataFileName = "inputData.json";
-    //    var outputDataFileName = "outputData.json";
-     //   var fullOutputFilePath = String.format("%s%s%s",tempDir, File.separator, outputDataFileName);
+        var outputDataFileName = "outputData.json";
+        var fullOutputFilePath = String.format("%s%s%s",tempDir, File.separator, outputDataFileName);
 
         var loader = new ResourcesFileLoader(inputDataFileName);
-    //    var processor = new ProcessorAggregator();
-    //    var serializer = new FileSerializer(fullOutputFilePath);
+        var processor = new ProcessorAggregator();
+        var serializer = new FileSerializer(fullOutputFilePath);
 
         //when
         var loadedMeasurements = loader.load();
-  //      var aggregatedMeasurements = processor.process(loadedMeasurements);
-/*        serializer.serialize(aggregatedMeasurements);
+        var aggregatedMeasurements = processor.process(loadedMeasurements);
+                serializer.serialize(aggregatedMeasurements);
 
         //then
         assertThat(loadedMeasurements.size()).isEqualTo(9);
         assertThat(aggregatedMeasurements.entrySet().size()).isEqualTo(3);
 
         var serializedOutput = Files.readString(Paths.get(fullOutputFilePath));
+        System.out.println("serializedOutput: "+serializedOutput);
+
         //обратите внимание: важен порядок ключей
         assertThat(serializedOutput).isEqualTo("{\"val1\":3.0,\"val2\":30.0,\"val3\":33.0}");
 
- */
+
     }
 }
