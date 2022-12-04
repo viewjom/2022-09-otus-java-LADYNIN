@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 public class FileSerializer implements Serializer {
@@ -24,14 +25,14 @@ public class FileSerializer implements Serializer {
         Map<String, Double> sortData = data.entrySet().stream()
                 .sorted(Map.Entry.comparingByKey(Comparator.naturalOrder()))
                 .collect(Collectors.toMap(
-                        Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+                        Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, TreeMap::new));
 
         try (var bufferedWriter = new BufferedWriter(new FileWriter(fileName))) {
 
             bufferedWriter.write(new ObjectMapper().writeValueAsString(sortData));
 
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new FileProcessException(e);
         }
 
     }
