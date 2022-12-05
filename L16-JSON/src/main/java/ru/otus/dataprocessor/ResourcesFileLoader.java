@@ -1,26 +1,24 @@
 package ru.otus.dataprocessor;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import lombok.NoArgsConstructor;
+import lombok.Data;
 import ru.otus.model.Measurement;
+import ru.otus.model.MeasurementMinix;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.Type;
-import java.net.URL;
-import java.util.ArrayList;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 
+@Data
 public class ResourcesFileLoader implements Loader {
 
-//    private final ObjectMapper mapper = new ObjectMapper();
+    private final ObjectMapper mapper = new ObjectMapper();
+
     private final String fileName;
 
     public ResourcesFileLoader(String fileName) {
@@ -28,15 +26,14 @@ public class ResourcesFileLoader implements Loader {
         this.fileName = fileName;
     }
 
-    @Override
-    public List<Measurement> load() throws FileProcessException, JsonProcessingException {
+    public List<Measurement> load() throws FileProcessException, IOException{
+
         String myJson = "";
-        Gson gson = new Gson();
 
-        URL resource = getClass().getClassLoader().getResource(fileName);
-        System.out.println("getResourceAsStream: " + resource.getFile());
+        InputStream is = getClass().getClassLoader().getResourceAsStream(fileName);
 
-        try (var bufferedReader = new BufferedReader(new FileReader(resource.getFile()))) {
+        try (InputStreamReader streamReader = new InputStreamReader(is, StandardCharsets.UTF_8);
+             BufferedReader bufferedReader = new BufferedReader(streamReader)) {
             System.out.println("text from the file:");
             String line;
             while ((line = bufferedReader.readLine()) != null) {
@@ -48,20 +45,9 @@ public class ResourcesFileLoader implements Loader {
             throw new RuntimeException(e);
         }
 
-
-
-         ObjectMapper mapper = new ObjectMapper();
-
-
-        //var stringCollectionType = mapper.getTypeFactory().constructCollectionType(List.class, Measurement.class);
-
-        //    List<Measurement> list = mapper.readValue(myJson, new TypeReference<List<Measurement>>(){});
-
-        //List<Measurement> list = mapper.readValue(myJson, stringCollectionType);
-
-        //List<Measurement> list = gson.fromJson(myJson, empTypeList);
-
-        List<Measurement> list = mapper.readValue(myJson,  new TypeReference<List>(){});
+        mapper.addMixIn(Measurement.class, MeasurementMinix.class);
+        List<Measurement> list = mapper.readValue(myJson, new TypeReference<List<Measurement>>() {
+        });
 
         return list;
 
