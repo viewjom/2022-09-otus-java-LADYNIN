@@ -26,7 +26,7 @@ public class ResourcesFileLoader implements Loader {
         this.fileName = fileName;
     }
 
-    public List<Measurement> load() throws FileProcessException, IOException{
+    public List<Measurement> load() throws FileProcessException {
 
         String myJson = "";
 
@@ -39,17 +39,19 @@ public class ResourcesFileLoader implements Loader {
             while ((line = bufferedReader.readLine()) != null) {
                 myJson += line;
             }
+
+
+            mapper.addMixIn(Measurement.class, MeasurementMinix.class);
+            List<Measurement> list = mapper.readValue(myJson, new TypeReference<List<Measurement>>() {
+            });
+            return list;
+
         } catch (FileProcessException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
-        mapper.addMixIn(Measurement.class, MeasurementMinix.class);
-        List<Measurement> list = mapper.readValue(myJson, new TypeReference<List<Measurement>>() {
-        });
-
-        return list;
 
     }
 }
