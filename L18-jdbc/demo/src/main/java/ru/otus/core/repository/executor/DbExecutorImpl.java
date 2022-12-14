@@ -18,18 +18,12 @@ public class DbExecutorImpl implements DbExecutor {
 
         try (var pst = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
-            System.out.println("sql: " + sql);
-
             for (var idx = 0; idx < params.size(); idx++) {
 
                 pst.setObject(idx + 1, params.get(idx));
 
-                System.out.println("86 executeQuery: " +  params.get(idx));
             }
 
-
-            System.out.println("87-------------------");
-            System.out.println("SQL: " +  pst.toString());
             pst.executeUpdate();
 
 
@@ -39,7 +33,7 @@ public class DbExecutorImpl implements DbExecutor {
                 return rs.getInt(1);
             }
         } catch (SQLException ex) {
-            System.out.println("88-------------------");
+
             throw new DataBaseOperationException("executeInsert error", ex);
         }
     }
@@ -50,6 +44,8 @@ public class DbExecutorImpl implements DbExecutor {
             for (var idx = 0; idx < params.size(); idx++) {
                 pst.setObject(idx + 1, params.get(idx));
             }
+
+
             try (var rs = pst.executeQuery()) {
                 return Optional.ofNullable(rsHandler.apply(rs));
             }

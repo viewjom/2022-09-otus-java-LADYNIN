@@ -1,9 +1,7 @@
 package ru.otus.jdbc.mapper;
 
 import java.lang.reflect.Field;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public final class EntitySQLMetaDataImpl implements EntitySQLMetaData {
     private String cacheSelectByIdSql;
@@ -49,14 +47,12 @@ public final class EntitySQLMetaDataImpl implements EntitySQLMetaData {
 
     @Override
     public String getInsertSql() {
-     /*   return String.format(
-                "INSERT INTO %s (%s) VALUES (%s)",
-                tableName, String.join(", ", fields), getFieldsByTemplate(fields, "?")
-        );*/
+        List<Field> fields = entityClassMetaDataClient.getFieldsWithoutId();
+
         if (cacheInsertSql != null) {
             return cacheInsertSql;
         }
-        List<Field> fields = entityClassMetaDataClient.getFieldsWithoutId();
+
         StringBuilder request = new StringBuilder();
         StringBuilder values = new StringBuilder();
 
@@ -69,16 +65,16 @@ public final class EntitySQLMetaDataImpl implements EntitySQLMetaData {
         values.append(')');
         request.deleteCharAt(request.length() - 1);
         request.append(") VALUES (").append(values);
+
+        System.out.println("cacheInsertSql: " + cacheInsertSql);
+
         return cacheInsertSql = request.toString();
+
     }
 
     @Override
     public String getUpdateSql() {
-      /*  return String.format(
-                "UPDATE %s SET %s WHERE %s = ?",
-                tableName, getFieldsByTemplate(fields, FIELD_MASK + " = ?"), fieldNameId
-        );
-    }*/
+
         if (cacheUpdateSql != null) {
             return cacheUpdateSql;
         }

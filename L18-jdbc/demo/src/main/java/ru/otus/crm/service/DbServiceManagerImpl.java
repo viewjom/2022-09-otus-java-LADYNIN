@@ -5,6 +5,8 @@ import org.slf4j.LoggerFactory;
 import ru.otus.core.repository.DataTemplate;
 import ru.otus.core.sessionmanager.TransactionRunner;
 import ru.otus.crm.model.Manager;
+
+import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import java.util.Optional;
 
@@ -24,6 +26,7 @@ public class DbServiceManagerImpl implements DBServiceManager {
         return transactionRunner.doInTransaction(connection -> {
             if (manager.getNo() == null) {
                 var managerNo = managerDataTemplate.insert(connection, manager);
+
                 var createdManager = new Manager(managerNo, manager.getLabel(), manager.getParam1());
                 log.info("created manager: {}", createdManager);
                 return createdManager;
@@ -36,8 +39,19 @@ public class DbServiceManagerImpl implements DBServiceManager {
 
     @Override
     public Optional<Manager> getManager(long no) {
+
+
         return transactionRunner.doInTransaction(connection -> {
-            var managerOptional = managerDataTemplate.findById(connection, no);
+
+            Optional<Manager> managerOptional = null;
+            try {
+
+                managerOptional = managerDataTemplate.findById(connection, no);
+
+            } catch (IllegalAccessException | InstantiationException | InvocationTargetException |
+                     NoSuchMethodException e) {
+                throw new RuntimeException(e);
+            }
             log.info("manager: {}", managerOptional);
             return managerOptional;
         });

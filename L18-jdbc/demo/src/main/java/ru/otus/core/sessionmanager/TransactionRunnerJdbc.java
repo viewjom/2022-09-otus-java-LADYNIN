@@ -13,6 +13,8 @@ public class TransactionRunnerJdbc implements TransactionRunner {
 
     @Override
     public <T> T doInTransaction(TransactionAction<T> action) {
+
+
         return wrapException(() -> {
             try (var connection = dataSource.getConnection()) {
                 try {

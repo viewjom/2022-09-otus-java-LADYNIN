@@ -1,20 +1,13 @@
 package ru.otus.jdbc.mapper;
 
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
-
-import ru.otus.core.sessionmanager.DataBaseOperationException;
 import ru.otus.crm.model.Id;
 
 public class EntityClassMetaDataImpl<T> implements EntityClassMetaData<T> {
-
-    private static final Predicate<Field> FIELD_ID_PREDICATE = field -> field.isAnnotationPresent(Id.class);
 
     private final Class<T> clazz;
     private List<Field> cacheAllFields;
@@ -65,7 +58,6 @@ public class EntityClassMetaDataImpl<T> implements EntityClassMetaData<T> {
     @Override
     public List<Field> getFieldsWithoutId() {
 
-        System.out.println("5-----------------------------");
         if (cacheFieldsWithoutId != null) {
             return cacheFieldsWithoutId;
         }
@@ -77,14 +69,5 @@ public class EntityClassMetaDataImpl<T> implements EntityClassMetaData<T> {
         }
         return cacheFieldsWithoutId;
     }
-  /*  public List<Field> getFieldsWithoutId() {
-        return getAllFields().stream()
-                .filter(FIELD_ID_PREDICATE.negate())
-                .collect(Collectors.toList());
-    }
-
-   */
-
-
 
 }

@@ -6,6 +6,7 @@ import ru.otus.core.repository.DataTemplate;
 import ru.otus.crm.model.Client;
 import ru.otus.core.sessionmanager.TransactionRunner;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import java.util.Optional;
 
@@ -23,14 +24,10 @@ public class DbServiceClientImpl implements DBServiceClient {
     @Override
     public Client saveClient(Client client) {
 
-        System.out.println("clientId:"+client.getId() +" ,getName:"+client.getName());
         return transactionRunner.doInTransaction(connection -> {
             if (client.getId() == null) {
 
-                System.out.println("1-----------------------------");
                 var clientId = dataTemplate.insert(connection, client);
-                System.out.println("11-----------------------------");
-
 
                 var createdClient = new Client(clientId, client.getName());
                 log.info("created client: {}", createdClient);
@@ -45,7 +42,14 @@ public class DbServiceClientImpl implements DBServiceClient {
     @Override
     public Optional<Client> getClient(long id) {
         return transactionRunner.doInTransaction(connection -> {
-            var clientOptional = dataTemplate.findById(connection, id);
+
+            Optional<Client> clientOptional = null;
+            try {
+                clientOptional = dataTemplate.findById(connection, id);
+            } catch (IllegalAccessException | InstantiationException | InvocationTargetException | NoSuchMethodException e) {
+                throw new RuntimeException(e);
+            }
+
             log.info("client: {}", clientOptional);
             return clientOptional;
         });

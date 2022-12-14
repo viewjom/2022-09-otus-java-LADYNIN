@@ -18,7 +18,7 @@ public class Manager {
         this.label = label;
         this.param1 = param1;
     }
-    //@Id
+
     public Long getNo() {
         return no;
     }

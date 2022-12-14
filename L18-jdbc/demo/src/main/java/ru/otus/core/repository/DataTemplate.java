@@ -1,11 +1,12 @@
 package ru.otus.core.repository;
 
+import java.lang.reflect.InvocationTargetException;
 import java.sql.Connection;
 import java.util.List;
 import java.util.Optional;
 
 public interface DataTemplate<T> {
-    Optional<T> findById(Connection connection, long id);
+    Optional<T> findById(Connection connection, long id) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException;
 
     List<T> findAll(Connection connection);
 
