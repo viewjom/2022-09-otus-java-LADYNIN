@@ -5,5 +5,4 @@ rootProject.name = '2022-09-otus-java-LADYNIN'
 //include 'L12-ATM'
 //include 'L06-Annotations'
 //include 'L15-Patterns'
-include 'L16-JSON'
-
+//include 'L16-JSON'
