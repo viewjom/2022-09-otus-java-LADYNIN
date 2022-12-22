@@ -25,7 +25,6 @@ public class MyCache<K, V> implements HwCache<K, V> {
     @Override
     public void put(K key, V value) {
 
-        addListener(listener);
         cache.put(key, value);
 
         listener.notify(key,value,"put");
@@ -33,12 +32,11 @@ public class MyCache<K, V> implements HwCache<K, V> {
     }
 
     @Override
-    public V remove(K key) {
+    public void remove(K key) {
 
-      var valV =  cache.remove(key);
-        listener.notify(key,valV,"remove");
-        removeListener(listener);
-        return valV;
+      cache.remove(key);
+
+
     }
 
     @Override

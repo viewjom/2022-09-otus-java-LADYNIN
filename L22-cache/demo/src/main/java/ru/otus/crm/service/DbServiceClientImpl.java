@@ -54,8 +54,9 @@ public class DbServiceClientImpl implements DBServiceClient {
     public Optional<Client> getClient(long id) {
 
         if (cache != null) {
-            Client client = cache.remove(String.valueOf(id));
+            Client client = cache.get(String.valueOf(id));
             if (client != null) {
+                cache.remove(String.valueOf(id));
                 return Optional.of(client);
             }
         }
@@ -69,6 +70,7 @@ public class DbServiceClientImpl implements DBServiceClient {
             } catch (IllegalAccessException | InstantiationException | InvocationTargetException | NoSuchMethodException e) {
                 throw new RuntimeException(e);
             }
+            clientOptional.ifPresent(cl -> cache.put(String.valueOf(id), cl));
 
             log.info("client: {}", clientOptional);
             return clientOptional;
