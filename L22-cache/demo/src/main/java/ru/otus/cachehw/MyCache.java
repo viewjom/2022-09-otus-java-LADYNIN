@@ -35,7 +35,7 @@ public class MyCache<K, V> implements HwCache<K, V> {
     public void remove(K key) {
 
       cache.remove(key);
-
+      listener.notify(key,null,"put");
 
     }
 
