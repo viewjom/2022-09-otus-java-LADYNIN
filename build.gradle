@@ -28,6 +28,7 @@ allprojects {
             dependency "org.ow2.asm:asm-commons:${Versions.asm}"
             dependency("org.glassfish:jakarta.json:${Versions.glassfishJson}")
 
+
         }
     }
 
