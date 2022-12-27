@@ -3,23 +3,29 @@ package ru.otus.crm.model;
 import javax.persistence.*;
 import java.util.Objects;
 
-
 @Entity
 @Table(name = "addresses")
 public class Address {
 
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        @Column(name = "id")
+        private Long id;
+
+        @Column(name = "street")
+        private String street;
+    /*
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private long id;
+    private Long id;
 
     @Column(name = "street")
     private String street;
-
+*/
     public Address() {
     }
 
-    public Address(long id, String street) {
+    public Address(Long id, String street) {
         this.id = id;
         this.street = street;
     }
@@ -28,7 +34,7 @@ public class Address {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -42,7 +48,7 @@ public class Address {
 
     @Override
     public String toString() {
-        return "AddressDataSet{" +
+        return "Address{" +
                 "id=" + id +
                 ", street='" + street + '\'' +
                 '}';
@@ -61,21 +67,3 @@ public class Address {
         return Objects.hash(id, street);
     }
 }
-
-/*
-@Entity
-@Table(name = "addresses")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-
-public class Address {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @Column(name = "street")
-    private String street;
-}
-*/

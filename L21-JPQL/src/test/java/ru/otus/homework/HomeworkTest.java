@@ -23,15 +23,12 @@ import java.util.stream.StreamSupport;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatCode;
+
 class HomeworkTest {
 
     private StandardServiceRegistry serviceRegistry;
     private Metadata metadata;
     private SessionFactory sessionFactory;
-    private long id;
-    private List<Phone> phones;
-    private Address address;
-
 
     // Это надо раскомментировать, у выполненного ДЗ, все тесты должны проходить
     // Кроме удаления комментирования, тестовый класс менять нельзя
@@ -60,8 +57,8 @@ class HomeworkTest {
                 assertThat(statement).doesNotContain("update");
             }
         });
-        var client = new Client(this.id, "Vasya",
-                this.address, this.phones);
+        var client = new Client(null, "Vasya", new Address(null, "AnyStreet"),
+            List.of(new Phone(null, "13-555-22"), new Phone(null, "14-666-333")));
         try (var session = sessionFactory.openSession()) {
             session.getTransaction().begin();
             session.persist(client);
@@ -73,18 +70,20 @@ class HomeworkTest {
                 .isEqualTo(client);
         }
     }
+    /*
     @Test
     public void testForHomeworkRequirementsForClientReferences() throws Exception {
-        var client = new Client(this.id, "Vasya",
-                this.address, this.phones);
+        var client = new Client(null, "Vasya", new Address(null, "AnyStreet"),
+                List.of(new Phone(null, "13-555-22"), new Phone(null, "14-666-333")));
         assertThatClientHasCorrectReferences(client);
     }
     @Test
     public void testForHomeworkRequirementsForClonedClientReferences() throws Exception {
-        var client = new Client(this.id, "Vasya",
-                this.address, this.phones).clone();
+        var client = new Client(null, "Vasya", new Address(null, "AnyStreet"),
+                List.of(new Phone(null, "13-555-22"), new Phone(null, "14-666-333"))).clone();
         assertThatClientHasCorrectReferences(client);
     }
+*/
     private void assertThatClientHasCorrectReferences(Client client) throws IllegalAccessException {
         var hasAddress = false;
         var hasPhones = false;
@@ -100,8 +99,7 @@ class HomeworkTest {
                 hasPhones = true;
                 field.setAccessible(true);
                 var fieldValue = (Collection) field.get(client);
-
-         //       fieldValue.forEach(e -> assertThatObjectHasExpectedClientFieldValue(e, client));
+//                fieldValue.forEach(e -> assertThatObjectHasExpectedClientFieldValue(e, client));
             }
         }
         assertThat(hasAddress && hasPhones).isTrue();

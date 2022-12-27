@@ -1,42 +1,48 @@
 package ru.otus.crm.model;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.util.Objects;
 
+@Data
+@NoArgsConstructor
+//@AllArgsConstructor
 @Entity
 @Table(name = "phones")
 public class Phone {
 
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        @Column(name = "id")
+        private Long id;
+
+        @Column(name = "number")
+        private String number;
+
+        @ManyToOne
+        private Client client;
+
+    /*
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private long id;
+    private Long id;
 
     @Column(name = "number")
     private String number;
-
-    @ManyToOne
-    private Client client;
-
-    public Phone() {
-    }
-
-    public Phone(long id, String number, Client client) {
+*/
+    public Phone(Long id, String number) {
         this.id = id;
         this.number = number;
-        this.client = client;
-    }
 
-    public Phone(long id, String number) {
-        this.id = id;
-        this.number = number;
     }
 
     public long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -48,17 +54,13 @@ public class Phone {
         this.number = number;
     }
 
-    public Client getClient() {
-        return client;
-    }
-
     public void setClient(Client client) {
         this.client = client;
     }
 
     @Override
     public String toString() {
-        return "PhoneDataSet{" +
+        return "Phone{" +
                 "id=" + id +
                 ", number='" + number + '\'' +
                 '}';
@@ -77,24 +79,3 @@ public class Phone {
         return Objects.hash(id, number);
     }
 }
-/*
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import javax.persistence.*;
-
-@Entity
-@Table(name = "phones")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class Phone {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @Column(name = "number")
-    private String number;
-}
-*/
