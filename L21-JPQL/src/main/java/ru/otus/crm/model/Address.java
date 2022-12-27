@@ -14,14 +14,7 @@ public class Address {
 
         @Column(name = "street")
         private String street;
-    /*
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
-    @Column(name = "street")
-    private String street;
-*/
     public Address() {
     }
 

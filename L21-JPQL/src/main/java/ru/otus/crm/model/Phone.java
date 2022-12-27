@@ -24,14 +24,7 @@ public class Phone {
         @ManyToOne
         private Client client;
 
-    /*
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
-    @Column(name = "number")
-    private String number;
-*/
     public Phone(Long id, String number) {
         this.id = id;
         this.number = number;
