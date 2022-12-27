@@ -99,7 +99,7 @@ class HomeworkTest {
                 hasPhones = true;
                 field.setAccessible(true);
                 var fieldValue = (Collection) field.get(client);
-//                fieldValue.forEach(e -> assertThatObjectHasExpectedClientFieldValue(e, client));
+                //          fieldValue.forEach(e -> assertThatObjectHasExpectedClientFieldValue(e, client));
             }
         }
         assertThat(hasAddress && hasPhones).isTrue();

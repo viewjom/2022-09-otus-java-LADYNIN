@@ -1,18 +1,20 @@
 
 create table addresses
 (
-    address_id      bigserial not null primary key,
+    id      bigserial not null primary key,
     street  varchar(100)
 );
 
 create table phones
 (
     id      bigserial not null primary key,
-    number  varchar(20)
+    number  varchar(20),
+    client_id bigserial
 );
 
 create table clients
 (
     client_id   bigserial not null primary key,
-    name varchar(50)
+    name varchar(50),
+    address_id bigserial
 );
