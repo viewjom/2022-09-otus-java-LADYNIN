@@ -8,7 +8,6 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.engine.jdbc.spi.JdbcServices;
 import org.hibernate.engine.jdbc.spi.SqlStatementLogger;
-import org.hibernate.mapping.Collection;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,6 +16,7 @@ import ru.otus.crm.model.Client;
 import ru.otus.crm.model.Phone;
 
 import java.lang.reflect.Field;
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
@@ -70,7 +70,6 @@ class HomeworkTest {
                 .isEqualTo(client);
         }
     }
-    /*
     @Test
     public void testForHomeworkRequirementsForClientReferences() throws Exception {
         var client = new Client(null, "Vasya", new Address(null, "AnyStreet"),
@@ -83,7 +82,6 @@ class HomeworkTest {
                 List.of(new Phone(null, "13-555-22"), new Phone(null, "14-666-333"))).clone();
         assertThatClientHasCorrectReferences(client);
     }
-*/
     private void assertThatClientHasCorrectReferences(Client client) throws IllegalAccessException {
         var hasAddress = false;
         var hasPhones = false;
@@ -99,7 +97,7 @@ class HomeworkTest {
                 hasPhones = true;
                 field.setAccessible(true);
                 var fieldValue = (Collection) field.get(client);
-                //          fieldValue.forEach(e -> assertThatObjectHasExpectedClientFieldValue(e, client));
+                fieldValue.forEach(e -> assertThatObjectHasExpectedClientFieldValue(e, client));
             }
         }
         assertThat(hasAddress && hasPhones).isTrue();
