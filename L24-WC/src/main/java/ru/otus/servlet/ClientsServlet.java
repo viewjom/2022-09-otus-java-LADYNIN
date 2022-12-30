@@ -3,7 +3,7 @@ package ru.otus.servlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import ru.otus.dao.service.DBServiceClient;
+import ru.otus.client.service.DBServiceClient;
 import ru.otus.services.TemplateProcessor;
 
 import java.io.IOException;
@@ -11,8 +11,7 @@ import java.io.IOException;
 
 public class ClientsServlet extends HttpServlet {
 
-    private static final String USERS_PAGE_TEMPLATE = "users.html";
-    private static final String TEMPLATE_ATTR_RANDOM_USER = "randomUser";
+    private static final String USERS_PAGE_TEMPLATE = "clients.html";
 
     private final DBServiceClient dbServiceClient;
     private final TemplateProcessor templateProcessor;
@@ -24,9 +23,6 @@ public class ClientsServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse response) throws IOException {
-        //Map<String, Object> paramsMap = new HashMap<>();
-        //      userDao.findRandomUser().ifPresent(randomUser -> paramsMap.put(TEMPLATE_ATTR_RANDOM_USER, randomUser));
-
 
 
         response.setContentType("text/html");

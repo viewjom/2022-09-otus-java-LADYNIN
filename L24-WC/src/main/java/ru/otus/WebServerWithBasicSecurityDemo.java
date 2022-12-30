@@ -7,10 +7,10 @@ import org.eclipse.jetty.security.LoginService;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
 import org.hibernate.cfg.Configuration;
-import ru.otus.dao.repository.DataTemplateHibernate;
-import ru.otus.dao.repository.HibernateUtils;
-import ru.otus.dao.service.DbServiceClientImpl;
-import ru.otus.dao.sessionmanager.TransactionManagerHibernate;
+import ru.otus.client.repository.DataTemplateHibernate;
+import ru.otus.client.repository.HibernateUtils;
+import ru.otus.client.service.DbServiceClientImpl;
+import ru.otus.client.sessionmanager.TransactionManagerHibernate;
 import ru.otus.flyway.MigrationsExecutorFlyway;
 import ru.otus.helpers.FileSystemHelper;
 import ru.otus.model.Address;
@@ -20,9 +20,6 @@ import ru.otus.server.ClientsWebServer;
 import ru.otus.server.ClientsWebServerWithBasicSecurity;
 import ru.otus.services.TemplateProcessor;
 import ru.otus.services.TemplateProcessorImpl;
-
-
-import java.util.List;
 
 /*
     Полезные для демо ссылки
@@ -41,12 +38,7 @@ public class WebServerWithBasicSecurityDemo {
 
     private static SessionFactory sessionFactory;
     private static Metadata metadata;
-/*
-    protected static TransactionManagerHibernate transactionManager;
-    protected static DataTemplateHibernate<Client> clientTemplate;
-    protected static DBServiceClient dbServiceClient;
 
- */
     public static final String HIBERNATE_CFG_FILE = "hibernate.cfg.xml";
 
 
@@ -61,32 +53,17 @@ public class WebServerWithBasicSecurityDemo {
         var clientTemplate = new DataTemplateHibernate<>(Client.class);
         var dbServiceClient = new DbServiceClientImpl(transactionManager, clientTemplate);
 
-
+/*
         var client = new Client(null, "Vasya", new Address(null, "AnyStreet"), List.of(new Phone(null, "13-555-22"),
                 new Phone(null, "14-666-333")));
 
         var savedClient = dbServiceClient.saveClient(client);
-        /*
-        var savedClient = transactionManager.doInTransaction(session -> {
-            clientTemplate.insert(session, client);
-            return client;
-        });
-
-         */
-    //    DBServiceClient dbServiceClient new
-
-//        UserDao userDao = new InMemoryUserDao();
+    */
         Gson gson = new GsonBuilder().serializeNulls().setPrettyPrinting().create();
         TemplateProcessor templateProcessor = new TemplateProcessorImpl(TEMPLATES_DIR);
 
         String hashLoginServiceConfigPath = FileSystemHelper.localFileNameOrResourceNameToFullPath(HASH_LOGIN_SERVICE_CONFIG_NAME);
         LoginService loginService = new HashLoginService(REALM_NAME, hashLoginServiceConfigPath);
-        //LoginService loginService = new InMemoryLoginServiceImpl(userDao);
-
-   /*     UsersWebServer usersWebServer = new UsersWebServerWithBasicSecurity(WEB_SERVER_PORT,
-                loginService, userDao, gson, templateProcessor);
-
-    */
         ClientsWebServer clientsWebServer = new ClientsWebServerWithBasicSecurity(WEB_SERVER_PORT,
                 loginService, dbServiceClient, gson, templateProcessor);
 
@@ -102,12 +79,8 @@ public class WebServerWithBasicSecurityDemo {
         var dbPassword = configuration.getProperty("hibernate.connection.password");
         new MigrationsExecutorFlyway(dbUrl, dbUserName, dbPassword).executeMigrations();
 
-
         sessionFactory = HibernateUtils.buildSessionFactory(configuration, Client.class, Address.class, Phone.class);
 
-
-
     }
-
 
 }

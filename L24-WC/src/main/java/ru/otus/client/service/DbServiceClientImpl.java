@@ -1,9 +1,9 @@
-package ru.otus.dao.service;
+package ru.otus.client.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.otus.dao.repository.DataTemplate;
-import ru.otus.dao.sessionmanager.TransactionManager;
+import ru.otus.client.repository.DataTemplate;
+import ru.otus.client.sessionmanager.TransactionManager;
 import ru.otus.model.Client;
 
 import java.util.HashMap;

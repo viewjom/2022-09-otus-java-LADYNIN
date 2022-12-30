@@ -14,7 +14,6 @@ dependencies {
     implementation('org.flywaydb:flyway-core')
     implementation("com.google.code.gson:gson:${Versions.gson}")
 
-
     implementation("org.eclipse.jetty:jetty-servlet:${Versions.jetty}")
     implementation("org.eclipse.jetty:jetty-server:${Versions.jetty}")
     implementation("org.eclipse.jetty:jetty-webapp:${Versions.jetty}")

@@ -80,9 +80,9 @@ public class Client {
     public String toString() {
         return "Client{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", address=" + address +
-                ", phones=" + phones +
+                ", name='" + name + //'\'' +
+           //     ", address=" + address +
+      //          ", phones=" + phones +
                 '}';
     }
 

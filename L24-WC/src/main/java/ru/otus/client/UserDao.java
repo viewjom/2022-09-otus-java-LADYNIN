@@ -1,4 +1,4 @@
-package ru.otus.dao;
+package ru.otus.client;
 
 import ru.otus.model.User;
 
