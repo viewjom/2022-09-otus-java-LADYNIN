@@ -1,0 +1,46 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Пользователи</title>
+  <script>
+      function addUser() {
+        const userNameTextBox = document.getElementById('userName');
+        const userAddressTextBox = document.getElementById('userAddress');
+        const userPhonesTextBox = document.getElementById('userPhones');
+        const userName = userNameTextBox.value;
+        const userAddress = userAddressTextBox.value;
+        const userPhones = userPhonesTextBox.value;
+        const client = { id: null, name: userName ,address: {id: null,  street: userAddress }, phones: [{ id: null, number: userPhones }]}
+        fetch('/api/client', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(client)
+        });
+        window.location.reload(true);
+      }
+    </script>
+</head>
+
+<body>
+<h4>Добавить пользователя</h4>
+<input type="text" id="userName" placeholder="Введите имя пользователя"><br>
+<input type="text" id="userAddress" placeholder="Введите адрес пользователя"><br>
+<input type="text" id="userPhones" placeholder="Введите phone"><br>
+<button onclick="addUser()">Добавить</button>
+<h4>Clients</h4>
+<table style="width: 400px">
+  <thead>
+  <tr>
+    <td style="width: 50px">Id</td>
+    <td style="width: 150px">Name</td>
+    <td style="width: 100px">Address</td>
+    <td style="width: 100px">Phone</td>
+  </tr>
+  </thead>
+  <tbody>
+  ${body}
+  </tbody>
+</table>
+</body>
+</html>
