@@ -21,11 +21,9 @@ import ru.otus.server.ClientsWebServerWithBasicSecurity;
 import ru.otus.services.TemplateProcessor;
 import ru.otus.services.TemplateProcessorImpl;
 
-<<<<<<< HEAD
+
 import java.util.List;
 
-=======
->>>>>>> origin/lesson24_wc
 /*
     Полезные для демо ссылки
     // Стартовая страница
@@ -59,19 +57,11 @@ public class WebServerWithBasicSecurityDemo {
         setUp();
 
 
-<<<<<<< HEAD
-
-=======
-      //  var client = new Client(null, "Vasya", new Address(null, "AnyStreet"), List.of(new Phone(null, "13-555-22"),
-        //        new Phone(null, "14-666-333")));
->>>>>>> origin/lesson24_wc
-
-
         var transactionManager = new TransactionManagerHibernate(sessionFactory);
         var clientTemplate = new DataTemplateHibernate<>(Client.class);
         var dbServiceClient = new DbServiceClientImpl(transactionManager, clientTemplate);
 
-<<<<<<< HEAD
+
         var client = new Client(null, "Vasya", new Address(null, "AnyStreet"), List.of(new Phone(null, "13-555-22"),
                 new Phone(null, "14-666-333")));
 
@@ -83,9 +73,6 @@ public class WebServerWithBasicSecurityDemo {
         });
 
          */
-
-=======
->>>>>>> origin/lesson24_wc
     //    DBServiceClient dbServiceClient new
 
 //        UserDao userDao = new InMemoryUserDao();
@@ -122,50 +109,5 @@ public class WebServerWithBasicSecurityDemo {
 
     }
 
-/*
-    private static void makeTestDependencies() {
-        var cfg = new Configuration();
-        cfg.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQL10Dialect");
-        //      cfg.setProperty("hibernate.connection.driver_class", "org.h2.Driver");
-        cfg.setProperty("hibernate.connection.url", "jdbc:postgresql://192.168.10.173:5430/demoDB");
-        cfg.setProperty("hibernate.connection.username", "usr");
-        cfg.setProperty("hibernate.connection.password", "pwd");
-        cfg.setProperty("hibernate.show_sql", "true");
-        //cfg.setProperty("hibernate.format_sql", "false");
-        cfg.setProperty("hibernate.generate_statistics", "true");
-        cfg.setProperty("hibernate.hbm2ddl.auto", "create");
-        cfg.setProperty("hibernate.enable_lazy_load_no_trans", "false");
-        StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
-                .applySettings(cfg.getProperties()).build();
-        MetadataSources metadataSources = new MetadataSources(serviceRegistry);
-        metadataSources.addAnnotatedClass(Phone.class);
-        metadataSources.addAnnotatedClass(Address.class);
-        metadataSources.addAnnotatedClass(Client.class);
-        metadata = metadataSources.getMetadataBuilder().build();
-        sessionFactory = metadata.getSessionFactoryBuilder().build();
-
-        var cfg = new Configuration();
-        cfg.setProperty("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
-        cfg.setProperty("hibernate.connection.driver_class", "org.h2.Driver");
-        cfg.setProperty("hibernate.connection.url", "jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1");
-        cfg.setProperty("hibernate.connection.username", "sa");
-        cfg.setProperty("hibernate.connection.password", "");
-        cfg.setProperty("hibernate.show_sql", "true");
-        cfg.setProperty("hibernate.format_sql", "false");
-        cfg.setProperty("hibernate.generate_statistics", "true");
-        cfg.setProperty("hibernate.hbm2ddl.auto", "create");
-        cfg.setProperty("hibernate.enable_lazy_load_no_trans", "false");
-        StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
-                .applySettings(cfg.getProperties()).build();
-        MetadataSources metadataSources = new MetadataSources(serviceRegistry);
-        metadataSources.addAnnotatedClass(Phone.class);
-        metadataSources.addAnnotatedClass(Address.class);
-        metadataSources.addAnnotatedClass(Client.class);
-        Metadata metadata = metadataSources.getMetadataBuilder().build();
-        sessionFactory = metadata.getSessionFactoryBuilder().build();
-
-
-    }
-*/
 
 }

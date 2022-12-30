@@ -17,14 +17,10 @@ public class MigrationsExecutorFlyway {
     }
 
     public void executeMigrations() {
-<<<<<<< HEAD
-     //   logger.info("db migration started...");
-        flyway.migrate();
-      //  logger.info("db migration finished.");
-=======
+
         logger.info("db migration started...");
         flyway.migrate();
         logger.info("db migration finished.");
->>>>>>> origin/lesson24_wc
+
     }
 }
