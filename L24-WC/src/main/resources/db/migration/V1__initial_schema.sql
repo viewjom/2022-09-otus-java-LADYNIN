@@ -13,7 +13,11 @@ create table phones
 
 create table clients
 (
+<<<<<<< HEAD
     id   bigserial not null primary key,
+=======
+    client_id   bigserial not null primary key,
+>>>>>>> origin/lesson24_wc
     name varchar(50),
     address_id bigserial
 );

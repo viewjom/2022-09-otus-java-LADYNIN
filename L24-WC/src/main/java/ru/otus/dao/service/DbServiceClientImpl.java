@@ -65,7 +65,15 @@ public class DbServiceClientImpl implements DBServiceClient {
             String body = "";
 
             for (int i = 0; i < clientList.size(); i++) {
+<<<<<<< HEAD
                 body = body + clientList.get(i).toHTML();
+=======
+                body = body +
+                       "<tr>" +
+                       "<td>" + clientList.get(i).getId() + "</td>" +
+                       "<td>" + clientList.get(i).getName() + "</td>" +
+                       "</tr>";
+>>>>>>> origin/lesson24_wc
             }
 
             paramsMap.put("body", body);

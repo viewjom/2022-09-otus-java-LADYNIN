@@ -55,6 +55,7 @@ public class Client {
         this.name = name;
     }
 
+<<<<<<< HEAD
     public String toHTML() {
         var phone = "";
 
@@ -69,6 +70,10 @@ public class Client {
                 "<td>"  + phone.replaceFirst(", ", "") + "</td>" +
                 "</tr>";
     }
+=======
+
+
+>>>>>>> origin/lesson24_wc
     @Override
     public Client clone() {
         return new Client(this.id, this.name, this.address, this.phones);

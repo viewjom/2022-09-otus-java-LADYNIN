@@ -21,8 +21,11 @@ import ru.otus.server.ClientsWebServerWithBasicSecurity;
 import ru.otus.services.TemplateProcessor;
 import ru.otus.services.TemplateProcessorImpl;
 
+<<<<<<< HEAD
 import java.util.List;
 
+=======
+>>>>>>> origin/lesson24_wc
 /*
     Полезные для демо ссылки
     // Стартовая страница
@@ -56,13 +59,19 @@ public class WebServerWithBasicSecurityDemo {
         setUp();
 
 
+<<<<<<< HEAD
 
+=======
+      //  var client = new Client(null, "Vasya", new Address(null, "AnyStreet"), List.of(new Phone(null, "13-555-22"),
+        //        new Phone(null, "14-666-333")));
+>>>>>>> origin/lesson24_wc
 
 
         var transactionManager = new TransactionManagerHibernate(sessionFactory);
         var clientTemplate = new DataTemplateHibernate<>(Client.class);
         var dbServiceClient = new DbServiceClientImpl(transactionManager, clientTemplate);
 
+<<<<<<< HEAD
         var client = new Client(null, "Vasya", new Address(null, "AnyStreet"), List.of(new Phone(null, "13-555-22"),
                 new Phone(null, "14-666-333")));
 
@@ -75,6 +84,8 @@ public class WebServerWithBasicSecurityDemo {
 
          */
 
+=======
+>>>>>>> origin/lesson24_wc
     //    DBServiceClient dbServiceClient new
 
 //        UserDao userDao = new InMemoryUserDao();
