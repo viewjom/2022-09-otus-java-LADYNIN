@@ -14,7 +14,7 @@ create table phones
 
 create table clients
 (
-    client_id   bigserial not null primary key,
+    id   bigserial not null primary key,
     name varchar(50),
     address_id bigserial
 );
