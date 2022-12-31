@@ -4,3 +4,4 @@ public interface Versions {
     String asm = "9.2";
     String glassfishJson = "2.0.1";
 }
+
