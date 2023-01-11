@@ -36,29 +36,16 @@ public class WebServerWithBasicSecurityDemo {
     private static final String HASH_LOGIN_SERVICE_CONFIG_NAME = "realm.properties";
     private static final String REALM_NAME = "AnyRealm";
 
-    private static SessionFactory sessionFactory;
+    private static DbServiceClientImpl dbServiceClient;
     private static Metadata metadata;
 
     public static final String HIBERNATE_CFG_FILE = "hibernate.cfg.xml";
 
 
-
     public static void main(String[] args) throws Exception {
 
-      //  Configuration config = new Configuration().configure(HIBERNATE_CFG_FILE);
-        setUp();
+        DatabaseSetup();
 
-
-        var transactionManager = new TransactionManagerHibernate(sessionFactory);
-        var clientTemplate = new DataTemplateHibernate<>(Client.class);
-        var dbServiceClient = new DbServiceClientImpl(transactionManager, clientTemplate);
-
-/*
-        var client = new Client(null, "Vasya", new Address(null, "AnyStreet"), List.of(new Phone(null, "13-555-22"),
-                new Phone(null, "14-666-333")));
-
-        var savedClient = dbServiceClient.saveClient(client);
-    */
         Gson gson = new GsonBuilder().serializeNulls().setPrettyPrinting().create();
         TemplateProcessor templateProcessor = new TemplateProcessorImpl(TEMPLATES_DIR);
 
@@ -71,7 +58,7 @@ public class WebServerWithBasicSecurityDemo {
         clientsWebServer.join();
     }
 
-    private static void setUp() {
+    private static void DatabaseSetup() {
 
         var configuration = new Configuration().configure(HIBERNATE_CFG_FILE);
         var dbUrl = configuration.getProperty("hibernate.connection.url");
@@ -79,8 +66,10 @@ public class WebServerWithBasicSecurityDemo {
         var dbPassword = configuration.getProperty("hibernate.connection.password");
         new MigrationsExecutorFlyway(dbUrl, dbUserName, dbPassword).executeMigrations();
 
-        sessionFactory = HibernateUtils.buildSessionFactory(configuration, Client.class, Address.class, Phone.class);
+        SessionFactory sessionFactory = HibernateUtils.buildSessionFactory(configuration, Client.class, Address.class, Phone.class);
+        var transactionManager = new TransactionManagerHibernate(sessionFactory);
+        var clientTemplate = new DataTemplateHibernate<>(Client.class);
+        dbServiceClient = new DbServiceClientImpl(transactionManager, clientTemplate);
 
     }
-
 }

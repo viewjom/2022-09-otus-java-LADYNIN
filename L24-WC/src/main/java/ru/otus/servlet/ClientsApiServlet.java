@@ -24,17 +24,6 @@ public class ClientsApiServlet extends HttpServlet {
         this.gson = gson;
     }
 
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    /*    User user = dbServiceClient.findById(extractIdFromRequest(request)).orElse(null);
-
-        response.setContentType("application/json;charset=UTF-8");
-        ServletOutputStream out = response.getOutputStream();
-        out.print(gson.toJson(user));
-
-     */
-    }
-
 
     private long extractIdFromRequest(HttpServletRequest request) {
         String[] path = request.getPathInfo().split("/");
@@ -46,7 +35,6 @@ public class ClientsApiServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         try (BufferedReader reader = request.getReader()) {
 
-       //     var js = reader.readLine().lines().collect(Collectors.joining(System.lineSeparator()));
             var js = reader.readLine();
             Client client = gson.fromJson(js, Client.class);
             var savedClient = dbServiceClient.saveClient(client);
