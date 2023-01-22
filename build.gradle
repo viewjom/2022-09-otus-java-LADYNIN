@@ -4,6 +4,7 @@ plugins {
     id "org.springframework.boot" version "2.7.2" apply false
     id "com.google.cloud.tools.jib" version "3.2.1" apply false
     id "fr.brouillard.oss.gradle.jgitver" version "0.10.0-rc03" apply false
+
 }
 
 allprojects {
@@ -38,6 +39,11 @@ allprojects {
             dependency("org.mongodb:mongodb-driver-reactivestreams:${Versions.mongodbReactive}")
             dependency("org.neo4j.driver:neo4j-java-driver:${Versions.neo4j}")
             dependency("redis.clients:jedis:${Versions.jedis}")
+
+            dependency("org.webjars:sockjs-client:${Versions.sockjs}")
+            dependency("org.webjars:stomp-websocket:${Versions.stomp}")
+            dependency("org.webjars:bootstrap:${Versions.bootstrap}")
+            dependency("org.springdoc:springdoc-openapi-starter-webmvc-ui:${Versions.springDocOpenapiUi}")
         }
     }
 
