@@ -35,8 +35,14 @@ public class Go {
 
     public static void main(String[] args) {
         Go go = new Go();
-        new Thread(() -> go.action("Thread1")).start();
-        new Thread(() -> go.action("Thread2")).start();
+        Thread thread1 = new Thread(() -> go.action("Thread1"));
+        thread1.setName("Поток 1");
+
+        Thread thread2 = new Thread(() -> go.action("Thread2"));
+        thread2.setName("Поток 2");
+
+        thread1.start();
+        thread2.start();
     }
 
     private static void sleep() {
