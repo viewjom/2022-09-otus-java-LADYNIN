@@ -15,5 +15,6 @@ rootProject.name = '2022-09-otus-java-LADYNIN'
 //include 'L24-WC'
 //include 'L28-WC-JDBC'
 //include 'L28-WC-JDBC2'
-include 'L31-Executors'
+//include 'L31-Executors'
+include 'l32-cC'
 
