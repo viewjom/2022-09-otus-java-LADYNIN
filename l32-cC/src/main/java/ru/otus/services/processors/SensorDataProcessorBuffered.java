@@ -13,15 +13,12 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.stream.Collectors;
 
-
 // Этот класс нужно реализовать
 public class SensorDataProcessorBuffered implements SensorDataProcessor {
     private static final Logger log = LoggerFactory.getLogger(SensorDataProcessorBuffered.class);
 
     private final int bufferSize;
     private final SensorDataBufferedWriter writer;
-    private List<SensorData> bufferedData = new CopyOnWriteArrayList<>();
-    private List<SensorData> bufferedDataSort = new CopyOnWriteArrayList<>();
     private BlockingQueue<SensorData> dataBuffer;
 
     public SensorDataProcessorBuffered(int bufferSize, SensorDataBufferedWriter writer) {
@@ -35,35 +32,28 @@ public class SensorDataProcessorBuffered implements SensorDataProcessor {
     public void process(SensorData data) {
 
         if (dataBuffer.size() >= bufferSize - 1) {
-
             dataBuffer.offer(data);
-
             flush();
-
         } else {
-
             dataBuffer.offer(data);
         }
     }
 
-    public synchronized void flush() {
+    public void flush() {
+        List<SensorData> bufferedData = new CopyOnWriteArrayList<>();
+        List<SensorData> bufferedDataSort = new CopyOnWriteArrayList<>();
 
         bufferedData.clear();
         bufferedDataSort.clear();
         dataBuffer.drainTo(bufferedData);
 
         if (!bufferedData.isEmpty()) {
-
             bufferedDataSort = bufferedData.stream().sorted(Comparator.comparing(SensorData::getMeasurementTime)).collect(Collectors.toList());
-
             try {
-
                 writer.writeBufferedData(bufferedDataSort);
-
             } catch (Exception e) {
                 log.error("Ошибка в процессе записи буфера", e);
             }
-
         }
     }
 
@@ -71,6 +61,5 @@ public class SensorDataProcessorBuffered implements SensorDataProcessor {
     public void onProcessingEnd() {
 
         flush();
-
     }
 }
