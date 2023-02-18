@@ -17,5 +17,7 @@ rootProject.name = '2022-09-otus-java-LADYNIN'
 //include 'L28-WC-JDBC2'
 //include 'L31-Executors'
 //include 'L32-cC'
-include 'L33-gRPC'
+//include 'L33-gRPC'
+include 'L37-Webflux:client-service'
+include 'L37-Webflux:datastore-service'
 
