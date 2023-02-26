@@ -25,6 +25,7 @@ public class MessageController {
 
     private final WebClient datastoreClient;
     private final SimpMessagingTemplate template;
+    private final int ROOM1408 = 1408;
 
     public MessageController(WebClient datastoreClient, SimpMessagingTemplate template) {
         this.datastoreClient = datastoreClient;
@@ -34,7 +35,7 @@ public class MessageController {
     @MessageMapping("/message.{roomId}")
     public void getMessage(@DestinationVariable String roomId, Message message) {
 
-        if (!roomId.equals("1408")) {
+        if (!roomId.equals(ROOM1408)) {
             logger.info("get message:{}, roomId:{}", message, roomId);
             saveMessage(roomId, message)
                     .subscribe(msgId -> logger.info("message send id:{}", msgId));
@@ -42,14 +43,11 @@ public class MessageController {
             template.convertAndSend(String.format("%s%s", TOPIC_TEMPLATE, roomId),
                     new Message(HtmlUtils.htmlEscape(message.messageStr())));
 
-            template.convertAndSend(String.format("%s%s", TOPIC_TEMPLATE, 1408),
+            template.convertAndSend(String.format("%s%s", TOPIC_TEMPLATE, ROOM1408),
                     new Message(HtmlUtils.htmlEscape(message.messageStr()))
             );
         }
-
-
     }
-
 
     @EventListener
     public void handleSessionSubscribeEvent(SessionSubscribeEvent event) {
@@ -64,8 +62,6 @@ public class MessageController {
         getMessagesByRoomId(roomId)
                 .doOnError(ex -> logger.error("getting messages for roomId:{} failed", roomId, ex))
                 .subscribe(message -> template.convertAndSend(simpDestination, message));
-
-
     }
 
     private long parseRoomId(String simpDestination) {
