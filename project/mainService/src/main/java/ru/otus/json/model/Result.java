@@ -23,17 +23,19 @@ public class Result {
 
         return parents;
     }
-/*
-    public List<String> getStreets() {
 
-        return parents.stream().map(s->s.getName()).toList();
-    }
-*/
+    /*
+        public List<String> getStreets() {
+
+            return parents.stream().map(s->s.getName()).toList();
+        }
+    */
     public void setParents(List<Parents> parents) {
         this.parents = parents;
     }
 
-    public Result(){}
+    public Result() {
+    }
 
     public String getId() {
         return id;
@@ -148,11 +150,4 @@ public class Result {
                 ", parents=" + parents +
                 '}';
     }
-/*
-    @Override
-    public String toString() {
-        return getZip() + ", " + getName();
-
-
-    }*/
 }

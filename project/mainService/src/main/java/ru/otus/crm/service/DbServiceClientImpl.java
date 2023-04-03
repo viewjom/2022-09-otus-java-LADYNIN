@@ -59,11 +59,11 @@ public class DbServiceClientImpl implements DBServiceClient {
 
         for (Result res : result) {
 
-
             if (res.getGuid().equals(guid)) {
                 var receivedZip = res.getZip();
                 var receivedStreet = jsonProcessor.getParentInfo(res.getParents());
                 var receivedHouse = res.getName();
+
 
                 Set<Document> setDocument = new HashSet<>();
                 var docId = getLastId();
@@ -91,8 +91,8 @@ public class DbServiceClientImpl implements DBServiceClient {
                 setDocument.stream().forEach(s -> {
                     rabbitMqService.sendDocumentHashEvent(s.getId());
                     valueSource.accept(s.getId(), "StribogB256");
+
                 });
-                //   setDocument.stream().forEach(s->valueSource.accept(s.getId(),"StribogB256")); //KAFKA
 
                 return new RedirectView("/", true);
             }

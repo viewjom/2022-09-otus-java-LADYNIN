@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
-import ru.otus.gost.UsageSample;
+import ru.otus.service.ServiceGost3411;
 import ru.otus.service.DBServiceClient;
 
 import java.security.NoSuchAlgorithmException;
@@ -23,21 +23,27 @@ public class RabbitMqListeners {
     }
 
     private String getHex(byte[] fileBytes) {
-        UsageSample usageSample = new UsageSample();
+
+        ServiceGost3411 usageSample = new ServiceGost3411();
         try {
             return usageSample.getHex(fileBytes);
         } catch (NoSuchAlgorithmException | NoSuchProviderException e) {
             throw new RuntimeException(e);
         }
+
     }
 
     @RabbitListener(queues = "approval-results-queue")
-    public void genHash(String  message) {
+    public void genHash(String message) {
+        try {
+            logger.info("RabbitListener document_id={}", message);
 
-        logger.info("RabbitListener document_id={}", message);
+            var file = dbServiceClient.loadFile(Long.valueOf(message));
 
-        var file = dbServiceClient.loadFile(Long.valueOf(message));
+            dbServiceClient.updateDocument(Long.valueOf(message), getHex(file));
+        } catch (NullPointerException e) {
 
-        dbServiceClient.updateDocument(Long.valueOf(message), getHex(file));
+        }
+
     }
 }

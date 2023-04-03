@@ -19,11 +19,14 @@ import ru.otus.cachehw.MyCache;
 import ru.otus.crm.model.Client;
 import ru.otus.crm.service.DBServiceClient;
 import ru.otus.crm.service.KladrServiceClientImpl;
+import ru.otus.crm.service.ServiceGost3411;
 import ru.otus.exceptions.SaveClientException;
-import ru.otus.gost.UsageSample;
 import ru.otus.json.dataprocessor.ProcessorImpl;
 import ru.otus.json.model.Result;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
@@ -34,25 +37,21 @@ import java.util.List;
 public class ClientController {
 
     private static final Logger logger = LoggerFactory.getLogger(ClientController.class);
-    private final DBServiceClient dbServiceClient;
+    private DBServiceClient dbServiceClient;
     private int lastZip = 0;
     private List<Result> result;
     ProcessorImpl jsonProcessor = new ProcessorImpl();
     KladrServiceClientImpl kladrServiceClient = new KladrServiceClientImpl();
-    //UsageSample usageSample = new UsageSample();
-    //private UsageSample usageSample;
-    MyCache<String, List<Result>> cache = new MyCache<>();
-    //private final RabbitMqService rabbitMqService;
+    static MyCache<String, List<Result>> cache = new MyCache<>();
 
 
     @Value("${kladr.url}")
     private String kladr_url;
 
 
-    public ClientController(DBServiceClient dbServiceClient/*, RabbitMqService rabbitMqService*/) {
+    public ClientController(DBServiceClient dbServiceClient) {
 
         this.dbServiceClient = dbServiceClient;
-      //  this.rabbitMqService = rabbitMqService;
     }
 
     @GetMapping({"/", "/client/list"})
@@ -65,16 +64,13 @@ public class ClientController {
     @GetMapping("/client/file/{id}")
     public ResponseEntity<Resource> download(@PathVariable Long id, Model model) {
 
-        var doc = dbServiceClient.loadDocument(id);
-        var byteFile = doc.getFile();
-
+        var byteFile = dbServiceClient.loadDocument(id).getFile();
         HttpHeaders header = new HttpHeaders();
-        header.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=" + doc.getFileName()
+        header.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=" + dbServiceClient.loadDocument(id).getFileName()//doc.getFileName()
         );
         header.add("Cache-Control", "no-cache, no-store, must-revalidate");
         header.add("Pragma", "no-cache");
         header.add("Expires", "0");
-
 
         ByteArrayResource resource = new ByteArrayResource(byteFile);
 
@@ -99,53 +95,16 @@ public class ClientController {
                 throw new SaveClientException("clientSave");
             }
 
-          //  List<Result> result;
-
             if (cache.containsKey(String.valueOf(lastZip))) {
-               result = cache.get(String.valueOf(lastZip));
+                result = cache.get(String.valueOf(lastZip));
 
-                //-----------------------
-               return dbServiceClient.saveClient(result, name, number, guid, fils);
-/*
-                for (Result res : result) {
-
-
-                    if (res.getGuid().equals(guid)) {
-                        var receivedZip = res.getZip();
-                        var receivedStreet = jsonProcessor.getParentInfo(res.getParents());
-                        var receivedHouse = res.getName();
-
-                        Set<Document> setDocument = new HashSet<>();
-                        var docId = dbServiceClient.getLastId();
-
-
-                        for (MultipartFile file : fils) {
-                            docId++;
-
-                            byte[] fileBytes = file.getBytes();
-
-                            setDocument.add(new Document(docId, file.getOriginalFilename(), fileBytes, "hash was not generated", null));
-                        }
-
-                        dbServiceClient.saveClient(
-                                new Client(null, name,
-                                        new Address(receivedZip, receivedStreet, receivedHouse, guid, null),
-                                        Set.of(new Phone(null, number, null)),
-                                        setDocument));
-
-                        setDocument.stream().forEach(s -> rabbitMqService.sendDocumentHashEvent(s.getId()));
-
-                        return new RedirectView("/", true);
-                    }
-                }
-
- */
-              //---------------
-
+                return dbServiceClient.saveClient(result, name, number, guid, fils);
             }
+
         } catch (SaveClientException e) {
             logger.info("{} Cохранение пустого клиента", e.toString());
         }
+
         return new RedirectView("/client/create", true);
     }
 
@@ -156,8 +115,8 @@ public class ClientController {
             result = cache.get(String.valueOf(zip));
 
         } else {
-
             result = jsonProcessor.getListResult(kladrServiceClient.getAddresesByZip(kladr_url + zip));
+            //result = jsonProcessor.getListResult(kladrServiceClient.getAddresesByZip("https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=" + zip));
 
             if (!cache.containsKey(String.valueOf(zip))) {
                 cache.put(String.valueOf(zip), result);
@@ -175,22 +134,25 @@ public class ClientController {
 
         lastZip = zip;
         return "clientCreate";
-
     }
 
     @PostMapping("/client/hash")
     public String getHush(MultipartFile file2, Model model) throws IOException, SQLException, NoSuchAlgorithmException, NoSuchProviderException {
-        UsageSample usageSample = new UsageSample();
+        ServiceGost3411 usageSample = new ServiceGost3411();
         byte[] bytes = file2.getBytes();
-
-        if (cache.containsKey(String.valueOf(lastZip)) && lastZip > 0) {
-            var result = cache.get(String.valueOf(lastZip));
-            model.addAttribute("addresses", jsonProcessor.getAddreses(result));
-        }
 
         model.addAttribute("client", new Client(null, null, null, null, null));
         model.addAttribute("hash", usageSample.getHex(bytes));
 
         return "clientCreate";
+    }
+
+    public static byte[] toByteArray(BufferedImage bi, String format)
+            throws IOException {
+
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ImageIO.write(bi, format, baos);
+        byte[] bytes = baos.toByteArray();
+        return bytes;
     }
 }

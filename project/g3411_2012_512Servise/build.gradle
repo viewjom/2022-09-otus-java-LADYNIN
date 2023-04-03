@@ -16,6 +16,10 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-amqp")
     implementation 'org.postgresql:postgresql'
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+
+    //gost
+    implementation 'org.bouncycastle:bcpg-jdk15on:1.56'
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.56'
 }
 
 test {

@@ -10,19 +10,12 @@ import java.util.Collections;
 import java.util.Properties;
 import java.util.Random;
 
-
-import static ru.otus.kafka.consumer.JsonDeserializer.OBJECT_MAPPER;
-import static ru.otus.kafka.consumer.JsonDeserializer.TYPE_REFERENCE;
 import static org.apache.kafka.clients.CommonClientConfigs.BOOTSTRAP_SERVERS_CONFIG;
 import static org.apache.kafka.clients.CommonClientConfigs.GROUP_ID_CONFIG;
 import static org.apache.kafka.clients.CommonClientConfigs.GROUP_INSTANCE_ID_CONFIG;
-import static org.apache.kafka.clients.consumer.ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG;
-import static org.apache.kafka.clients.consumer.ConsumerConfig.AUTO_OFFSET_RESET_CONFIG;
-import static org.apache.kafka.clients.consumer.ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG;
-import static org.apache.kafka.clients.consumer.ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG;
-import static org.apache.kafka.clients.consumer.ConsumerConfig.MAX_POLL_INTERVAL_MS_CONFIG;
-import static org.apache.kafka.clients.consumer.ConsumerConfig.MAX_POLL_RECORDS_CONFIG;
-import static org.apache.kafka.clients.consumer.ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG;
+import static org.apache.kafka.clients.consumer.ConsumerConfig.*;
+import static ru.otus.kafka.consumer.JsonDeserializer.OBJECT_MAPPER;
+import static ru.otus.kafka.consumer.JsonDeserializer.TYPE_REFERENCE;
 
 
 public class MyConsumer {
@@ -49,6 +42,7 @@ public class MyConsumer {
 
         props.put(MAX_POLL_RECORDS_CONFIG, 3);
         props.put(MAX_POLL_INTERVAL_MS_CONFIG, MAX_POLL_INTERVAL_MS);
+
 
         kafkaConsumer = new KafkaConsumer<>(props);
         kafkaConsumer.subscribe(Collections.singletonList(TOPIC_NAME));

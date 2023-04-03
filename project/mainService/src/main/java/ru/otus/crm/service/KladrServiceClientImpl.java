@@ -25,11 +25,11 @@ public class KladrServiceClientImpl implements KladrServiceClient {
 
         HttpURLConnection httpClient = (HttpURLConnection) new URL(url).openConnection();
 
-            httpClient.setRequestMethod("GET");
+        httpClient.setRequestMethod("GET");
 
         httpClient.setRequestProperty("User-Agent", "Mozilla/5.0");
 
-            int responseCode = httpClient.getResponseCode();
+        int responseCode = httpClient.getResponseCode();
 
         logger.info("Запрос: {}", url);
 
@@ -39,7 +39,6 @@ public class KladrServiceClientImpl implements KladrServiceClient {
 
             StringBuilder response = new StringBuilder();
             String line;
-
 
             while (true) {
                 try {

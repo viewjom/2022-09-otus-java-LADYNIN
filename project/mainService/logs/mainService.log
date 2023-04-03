@@ -1,0 +1,436 @@
+2023-03-19 01:44:48,644 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 01:45:43,758 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 01:46:45,459 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 01:47:45,107 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 01:58:27,004 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 02:03:12,323 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 02:06:17,497 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 14:11:07,735 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 14:13:46,871 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 14:16:03,975 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 14:18:42,354 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 14:20:01,158 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 14:20:55,683 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 14:21:35,597 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 14:22:06,939 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 14:26:18,655 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 15:14:34,069 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 15:17:18,391 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 15:30:08,695 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 15:31:59,984 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 15:34:47,621 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 22:35:11,495 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 22:56:49,536 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 22:59:42,188 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 23:03:02,579 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 23:18:24,638 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 23:19:45,441 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 23:24:27,487 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 23:25:30,477 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 23:28:12,661 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 23:36:21,788 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 23:37:44,131 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-19 23:52:56,935 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 00:17:46,367 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 00:45:49,991 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 00:46:13,280 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 00:46:25,166 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 00:55:43,715 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 00:56:18,164 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 00:58:55,556 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:05:03,707 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:07:15,219 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:12:47,188 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:15:19,617 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:16:27,866 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:20:01,107 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:20:29,509 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:21:12,007 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:33:35,616 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:34:00,813 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:36:12,562 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-20 01:46:58,828 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-21 19:34:28,758 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-21 19:38:21,925 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-21 19:44:00,847 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-21 19:49:00,891 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-21 19:50:27,410 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-21 19:50:27,797 INFO [main] [ClientController.java:147] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-21 19:58:53,711 INFO [main] [ClientController.java:147] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-21 20:04:10,809 INFO [main] [ClientController.java:147] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-22 00:10:32,794 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:10:33,085 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:11:58,017 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:11:58,306 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:12:54,816 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:12:55,099 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:13:27,430 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:13:27,705 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:13:27,797 INFO [main] [ClientController.java:147] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-22 00:14:25,335 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:14:25,656 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:14:25,740 INFO [main] [ClientController.java:147] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-22 00:32:30,949 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:32:31,235 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:32:31,317 INFO [main] [ClientController.java:147] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-22 00:33:37,527 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:33:37,844 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:33:37,930 INFO [main] [ClientController.java:147] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-22 00:36:57,361 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:36:57,642 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:36:57,711 INFO [main] [ClientController.java:147] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-22 00:42:11,710 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:42:12,032 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:42:12,108 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-22 00:44:43,012 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:44:43,283 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:44:43,366 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-22 00:47:40,573 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:47:40,976 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:47:41,088 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-22 00:58:12,403 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 00:58:12,664 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 00:58:12,733 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-22 01:04:15,222 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-22 01:04:15,540 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-22 01:04:15,624 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 18:19:51,149 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 18:19:51,482 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 18:19:51,576 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 18:29:55,415 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 18:29:55,734 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 18:29:55,809 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 18:41:14,625 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 18:41:15,612 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 18:41:15,787 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 18:42:16,215 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 18:42:16,560 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 18:42:16,648 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 18:47:08,688 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 18:47:09,010 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 18:47:09,088 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 18:49:09,942 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 18:49:10,281 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 18:49:10,361 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:08:31,157 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:08:31,493 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:08:31,570 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:10:36,474 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:10:36,771 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:10:36,834 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:17:17,287 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:17:17,583 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:17:17,668 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:19:26,306 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:19:26,596 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:19:26,669 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:21:38,223 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:21:38,578 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:21:38,650 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:23:03,345 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:23:03,641 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:23:03,717 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:41:45,570 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:41:45,893 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:41:45,962 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:42:41,342 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:42:41,638 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:42:41,708 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:44:06,679 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:44:06,979 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:44:07,055 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 19:50:29,373 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 19:50:29,719 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 19:50:29,793 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 20:14:43,383 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 20:14:43,740 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 20:14:43,808 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-23 20:44:22,101 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-23 20:44:22,401 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-23 20:44:22,482 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 00:41:15,364 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 00:41:15,703 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 00:41:15,783 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 00:50:26,876 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 00:50:27,185 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 00:50:27,253 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 01:24:00,544 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 01:24:00,836 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 01:24:00,896 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 01:48:11,126 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 01:48:11,463 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 01:48:11,524 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 02:06:56,256 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 02:06:56,545 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 02:06:56,607 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 02:21:29,014 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 02:21:29,325 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 02:21:29,390 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 02:27:31,233 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 02:27:31,578 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 02:27:31,631 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 02:30:09,503 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 02:30:09,787 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 02:30:09,849 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 02:33:50,306 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 02:33:50,627 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 02:33:50,684 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 02:37:29,640 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 02:37:29,939 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 02:37:29,997 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 02:37:53,409 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 02:37:53,702 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 02:37:53,764 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 02:38:31,131 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 02:38:31,458 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 02:38:31,510 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:00:35,115 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:00:35,472 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:00:35,563 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:02:00,434 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:02:00,814 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:02:00,926 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:04:04,963 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:04:05,355 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:04:05,423 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:09:36,067 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:09:36,590 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:09:36,651 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:10:40,609 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:10:41,019 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:10:41,098 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:13:12,199 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:13:12,569 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:13:12,643 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:13:53,420 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:13:53,744 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:13:53,808 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:14:55,877 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:14:56,179 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:14:56,241 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:26:56,582 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:26:56,919 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:26:56,987 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:27:45,963 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:27:46,280 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:27:46,356 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:28:29,274 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:28:29,620 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:28:29,702 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:30:19,933 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:30:20,288 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:30:20,350 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:50:33,264 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:50:33,627 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:50:33,695 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 15:51:33,058 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 15:51:33,388 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 15:51:33,443 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-25 17:20:57,289 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 17:20:58,452 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-25 17:20:58,509 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-25 17:20:58,618 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 13:28:50,380 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 13:28:50,660 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 13:48:30,632 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 13:48:30,923 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 13:48:31,726 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 14:37:04,627 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 14:37:04,987 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 14:37:06,164 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 14:39:17,588 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 14:39:17,898 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 14:39:18,659 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 14:40:38,774 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 14:40:39,050 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 14:40:39,772 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 14:42:35,788 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 14:42:36,135 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 14:42:36,819 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 14:44:19,100 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 14:44:19,417 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 14:44:20,194 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 14:48:33,301 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 14:48:33,575 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 14:48:34,289 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 14:54:54,517 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 14:54:54,808 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 14:54:55,527 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 14:56:30,916 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 14:56:31,205 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 14:56:31,949 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 15:03:32,432 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 15:03:32,753 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 15:03:33,548 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 15:04:37,434 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 15:04:37,690 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 15:04:38,374 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 15:06:53,548 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 15:06:53,841 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 15:06:54,569 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 15:07:26,245 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 15:07:26,585 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 15:07:27,338 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 15:12:24,818 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 15:12:25,104 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 15:12:25,848 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 15:13:47,593 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 15:13:47,859 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 15:13:49,057 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 15:18:23,802 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 15:18:24,067 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 15:18:24,777 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 16:44:30,864 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 16:44:31,146 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 16:44:31,862 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 16:46:12,332 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 16:46:12,612 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 16:46:13,307 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 16:59:34,527 INFO [main] [ClientController.java:151] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-26 17:21:17,257 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 17:32:45,975 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 17:32:46,263 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 17:32:46,916 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 17:35:00,673 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 17:35:01,103 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 17:35:01,940 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 17:35:24,170 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 17:35:24,481 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 17:35:25,251 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 17:37:02,304 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 17:37:02,596 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 17:37:03,372 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 17:38:09,526 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 17:38:09,824 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 17:38:10,527 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 17:39:34,480 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 17:39:34,847 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 17:39:35,704 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 17:41:37,807 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 17:41:38,097 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 17:41:38,759 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 17:48:36,000 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 17:48:36,306 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 17:48:37,154 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-26 18:04:29,055 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 18:04:29,374 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 18:05:20,318 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 18:05:20,637 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 20:01:35,469 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:02:28,336 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:03:16,038 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:04:12,715 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:15:53,646 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:15:53,929 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 20:18:36,636 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:18:36,900 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 20:21:01,183 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:21:01,461 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 20:23:10,265 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:23:10,559 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 20:23:42,353 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:23:42,658 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 20:27:08,104 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:27:08,399 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-26 20:29:01,338 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-26 20:29:01,619 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 00:37:06,477 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 00:37:06,851 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 00:47:46,025 INFO [main] [ClientController.java:153] ru.otus.exceptions.SaveClientException: clientSave Cохранение пустого клиента
+2023-03-27 00:48:55,958 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 00:48:56,235 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 00:50:39,713 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 00:50:40,033 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 00:59:34,642 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 00:59:34,937 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:01:05,769 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:01:06,011 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:09:53,329 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:09:53,614 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:09:53,615 INFO [main] [MyCache.java:25] zip:0, action: Чтение из CACHE
+2023-03-27 01:11:12,015 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:11:12,333 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:11:12,334 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 01:18:57,253 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:18:57,532 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:18:57,532 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 01:25:24,160 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:25:24,455 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:25:24,456 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 01:32:27,111 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:32:27,476 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:32:27,477 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 01:38:05,236 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:38:05,530 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:38:32,622 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:38:32,923 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:38:32,923 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 01:43:05,366 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:43:05,629 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:43:05,630 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 01:44:38,408 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:44:38,692 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:44:38,692 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 01:46:58,798 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 01:46:59,109 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 01:46:59,111 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 02:16:25,084 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 02:16:25,423 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 02:16:25,424 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 02:17:53,443 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 02:17:53,751 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 02:17:53,753 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 02:29:13,285 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 02:29:13,594 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 02:29:13,595 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 02:35:40,431 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 02:35:40,721 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-27 02:35:40,722 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-27 02:37:39,616 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-27 02:37:39,926 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:11:41,829 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:11:42,110 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:11:43,014 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:20:41,457 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:20:41,718 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:20:42,437 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:21:57,516 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:21:57,793 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:21:58,425 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:23:01,289 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:23:01,606 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:23:02,293 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:25:25,197 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:25:25,540 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:25:26,252 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:26:58,169 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:26:58,454 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:26:58,486 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:29:06,037 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:29:06,337 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:29:06,368 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:51:04,121 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:51:04,412 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:51:04,451 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:52:04,072 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:52:04,333 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:52:04,368 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:55:46,542 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:55:46,835 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:55:46,865 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:56:43,083 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 00:56:43,354 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 00:56:43,385 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 00:57:12,268 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 01:08:44,503 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 01:08:44,768 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 01:08:44,799 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 01:09:52,855 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 01:09:53,115 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 01:09:53,149 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 01:50:16,054 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 01:50:16,324 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 01:50:16,359 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE
+2023-03-28 02:01:58,067 INFO [main] [KladrServiceClientImpl.java:34] Запрос: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=163000
+2023-03-28 02:01:58,345 INFO [main] [MyCache.java:25] zip:163000, всего адресов:214, action: Запись в CACHE
+2023-03-28 02:01:58,379 INFO [main] [MyCache.java:25] zip:163000, action: Чтение из CACHE

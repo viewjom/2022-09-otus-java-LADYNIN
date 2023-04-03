@@ -33,6 +33,9 @@
     <logger name="ru.otus.crm.service.KladrServiceClientImpl" level="info" additivity="true">
         <appender-ref ref="APP_LOG"/>
     </logger>
+    <logger name="ru.otus.crm.service.RabbitMqServiceImpl" level="info" additivity="true">
+        <appender-ref ref="APP_LOG"/>
+    </logger>
     <root level="info">
         <appender-ref ref="STDOUT"/>
     </root>

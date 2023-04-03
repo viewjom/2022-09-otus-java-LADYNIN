@@ -13,12 +13,9 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-
 @Data
 public class ResourcesFileLoader implements Loader {
-
     private final ObjectMapper mapper = new ObjectMapper();
-
     private final String fileName;
 
     public ResourcesFileLoader(String fileName) {
@@ -39,7 +36,6 @@ public class ResourcesFileLoader implements Loader {
             while ((line = bufferedReader.readLine()) != null) {
                 myJson += line;
             }
-
 
             mapper.addMixIn(Measurement.class, MeasurementMinix.class);
             List<Measurement> list = mapper.readValue(myJson, new TypeReference<List<Measurement>>() {

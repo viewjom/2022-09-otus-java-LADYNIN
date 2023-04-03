@@ -28,8 +28,8 @@ public class StringValueConsumer {
     }
 
     public void startConsume() {
-        // executor.scheduleAtFixedRate(this::poll, 0, MAX_POLL_INTERVAL_MS * 2L, TimeUnit.MILLISECONDS);
-        executor.scheduleAtFixedRate(this::poll, 0, MAX_POLL_INTERVAL_MS, TimeUnit.MILLISECONDS);
+         executor.scheduleAtFixedRate(this::poll, 0, MAX_POLL_INTERVAL_MS / 2L, TimeUnit.MILLISECONDS);
+
     }
 
     private void poll() {

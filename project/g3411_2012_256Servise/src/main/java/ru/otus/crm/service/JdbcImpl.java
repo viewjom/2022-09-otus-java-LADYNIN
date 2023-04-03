@@ -2,7 +2,6 @@ package ru.otus.crm.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.otus.gost.UsageSample;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
@@ -12,7 +11,7 @@ import java.sql.SQLException;
 
 public class JdbcImpl implements Jdbc {
     private static final Logger log = LoggerFactory.getLogger(JdbcImpl.class);
-    UsageSample usageSample = new UsageSample();
+    ServiceGost3411 usageSample = new ServiceGost3411();
 
     @Override
     public byte[] getFile(Connection connection, Long id) {

@@ -22,7 +22,5 @@ include 'L18-jdbc:homework'
 //include 'L37-Webflux:datastore-service'
 include 'project:mainService'
 include 'project:g3411_2012_512Servise'
-findProject(':project:g3411_2012_512Servise')?.name = 'g3411_2012_512Servise'
 include 'project:g3411_2012_256Servise'
-findProject(':project:g3411_2012_256Servise')?.name = 'g3411_2012_256Servise'
 

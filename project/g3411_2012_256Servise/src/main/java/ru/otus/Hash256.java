@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.otus.crm.datasource.DriverManagerDataSource;
 import ru.otus.crm.service.JdbcImpl;
+import ru.otus.crm.service.ServiceGost3411;
 import ru.otus.kafka.consumer.MyConsumer;
 import ru.otus.kafka.consumer.StringValueConsumer;
 
@@ -15,34 +16,27 @@ public class Hash256 {
     private static final String USER = "usr";
     private static final String PASSWORD = "pwd";
 
-     private static JdbcImpl jdbc = new JdbcImpl();
+    private static JdbcImpl jdbc = new JdbcImpl();
 
     //private static DataTemplate dataTemplate;
     private static Long id;
     private static String vl;
     private static final Logger log = LoggerFactory.getLogger(Hash256.class);
 
-    public static void main(String[] args)  {
-
-
+    public static void main(String[] args) throws SQLException {
 
 
         var consumer = new MyConsumer("192.168.10.173:9092");
 
         var dataSource = new DriverManagerDataSource(URL, USER, PASSWORD);
+        ServiceGost3411 usageSample = new ServiceGost3411();
+        var connection = dataSource.getConnection();
 
-        var dataConsumer = new StringValueConsumer(consumer, v ->{
+        var dataConsumer = new StringValueConsumer(consumer, v -> {
             log.info("Get key:{}, value:{}", v.id(), v.value());
-            try {
 
-                jdbc.updateDocHash(dataSource.getConnection(), v.id(), v.value());
+            jdbc.updateDocHash(connection, v.id(), v.value());
 
-            } /*catch (NullPointerException e) {
-
-        } */catch (SQLException e) {
-                log.info("SQLException key:{}, value:{}", v.id(), v.value());
-                throw new RuntimeException(e);
-            }
         }
 
 
@@ -70,7 +64,10 @@ public class Hash256 {
 
         }*/
         );
-        consumer.getConsumer().commitAsync();
+
+        //   CompletableFuture.runAsync(dataConsumer::startConsume);
+        //   consumer.getConsumer().commitAsync();
+
         dataConsumer.startConsume();
 
     }

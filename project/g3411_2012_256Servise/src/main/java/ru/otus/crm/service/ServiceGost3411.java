@@ -1,26 +1,16 @@
-package ru.otus.gost;
+package ru.otus.crm.service;
 
-import java.security.MessageDigest;
+import org.bouncycastle.jcajce.provider.digest.GOST3411;
+
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
-import java.security.Security;
 
-public class UsageSample {
+public class ServiceGost3411 {
 
     public String getHex(byte[] fileBytes, String algorithm) throws NoSuchAlgorithmException, NoSuchProviderException {
         String hash = "";
 
-        if (Security.getProvider("JStribog") == null) {
-            Security.addProvider(new StribogProvider());
-        }
-
-        MessageDigest md = MessageDigest.getInstance(algorithm);
-
-        byte[] digest = reverse(md.digest(fileBytes));
-
-       // byte[] digest = md.digest(reverse(fileBytes));
-       /// byte[] digest = md.digest(fileBytes);
-                //byte[] digest = reverse(md.digest(reverse(fileBytes)));
+        var digest = new GOST3411.Digest2012_256().digest(fileBytes);
 
         for (byte b : digest) {
             int iv = (int) b & 0xFF;

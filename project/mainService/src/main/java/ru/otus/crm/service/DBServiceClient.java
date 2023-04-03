@@ -1,6 +1,5 @@
 package ru.otus.crm.service;
 
-
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.view.RedirectView;
 import ru.otus.crm.model.Client;
@@ -9,7 +8,6 @@ import ru.otus.json.model.Result;
 
 import java.util.List;
 import java.util.Optional;
-
 
 public interface DBServiceClient {
 

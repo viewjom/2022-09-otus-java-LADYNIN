@@ -40,6 +40,7 @@ class StringValueConsumerTest {
                 .toList();
         putValuesToKafka(stringValues);
 
+       // var consumer = new MyConsumer("192.168.10.173:9092");
         var myConsumer = new MyConsumer(KafkaBase.getBootstrapServers());
 
         List<StringValue> factStringValues = new CopyOnWriteArrayList<>();
