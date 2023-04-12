@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Create client</title>
+    <style type="text/css">
+        body {
+            padding: 50px;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+        }
+        .row2 {
+            position: relative;
+            margin-top: 10px;
+            margin-left: 710px;
+            top: 60px;
+        }
+
+
+         .radio {display: inline-block;}
+          input:read-only {
+            background: lightgray;
+        }
+
+        .row {
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .button{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .readonly{
+        pointer-events: none;
+        margin-top: 10px;
+        }
+           .readonly2{
+        pointer-events: none;
+        margin-top: 10px;
+        margin-left: 710px;
+        }
+        .readonly textarea {
+                   background: transparent;
+                   border: none;
+                   position: relative;
+                   top: 80px;
+                }
+
+
+    </style>
+
+    <script>
+          function getKladr() {
+          const clientDataContainer = document.getElementById('clientDataContainer');
+            const clientZipInput = document.getElementById("clientZip");
+            const clientStreetInput = document.getElementById("clientStreet");
+
+            const clientZip = clientZipInput.value;
+            const clientStreet = clientStreetInput.value;
+            fetch('/client/kladr', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: JSON.stringify({zip: clientZip})
+             }) ;
+            window.location.reload(true);
+        }
+
+
+    </script>
+
+
+</head>
+<body>
+
+<div style="float: left;">
+    <form>
+
+        <h1>Запрос в Kladr:</h1>
+        <div class="row">
+            <label for="clientZip">Zip:</label>
+            <input id="clientZip" name="zip" type="text" th:value="*{address}" value="163000"/>
+        </div>
+        <div class="row">
+            <label for="clientStreet">Street:</label>
+            <input id="clientStreet" name="street" type="text" th:value="*{address}" value="Tverskaya"/>
+        </div>
+        <div class="row">
+            <label for="clientHouse">House:</label>
+            <input id="clientHouse" name="house" type="text" th:value="*{address}" value="181"/>
+        </div>
+
+        <div class="row">
+
+            <button type="submit" formmethod="get" formautocomplete="off" th:formaction="@{/client/kladr}">Kladr
+            </button>
+
+        </div>
+    </form>
+
+    <!--
+    <form method="post" th:action="@{/client/hash}" enctype="multipart/form-data">
+    -->
+
+    <form method="post" th:action="@{/client/hash}" enctype="multipart/form-data">
+            <div style="width: 100%;">
+        <div style="float: left; width: 700px; height: 100px;">
+        <h1>New Client:</h1>
+
+        <div class="row">
+            <label for="clientName">Name:</label>
+            <input id="clientName" name="name" type="text" autocomplete="off" th:value="*{name}" value="John Doe"/>
+        </div>
+
+        <div class="row">
+            <label for="clientNumber">Number:</label>
+            <input id="clientNumber" name="number" type="text" autocomplete="off" th:value="*{phone}" value="11111"/>
+        </div>
+
+        <div class="button">
+            <button type="submit" formmethod="post" th:formaction="@{/client/save}">Save</button>
+        </div>
+
+        <div style="display:flex; flex-direction: row;" th:each="addr : ${addresses}">
+            <input type="radio" name="guid" th:value="${addr.guid}"/>
+            <label style="width: 100%;" th:text="${addr.zip}+${addr.street}+' '+${addr.house}">RED</label>
+        </div>
+        </div>
+        <!------------------------------------------------->
+
+    <div style="float: left; width: 300px; height: 100px; margin-left: 10px;">
+
+                <h1>Документ:</h1>
+
+                <div class="row">
+                    <label for="clientFils">File:</label>
+                    <input id="clientFils" type="file" name="fils" th:value="*{fils}" enctype="multipart/form-data" multiple/>
+                </div>
+
+
+
+         <div class="row">
+             <label for="clientFile2">File for test:</label>
+             <input id="clientFile2" type="file" name="file2" th:value="*{file2}" .>
+         </div>
+
+         <div class="row">
+             <button type="submit">TEST GOST3411_2012_512</button>
+         </div>
+
+         <div class="readonly">
+             <textarea rows="8" cols="60" name="lines" th:text="${hash}"></textarea>
+         </div>
+
+
+         </div>
+
+     </div>
+
+    </form>
+<!--
+    <form  method="post" th:action="@{/client/hash}" enctype="multipart/form-data">
+
+        <div class="row2">
+            <input id="clientFile2" type="file" name="file2" th:value="*{file2}"/>
+        </div>
+
+        <div class="row2">
+            <button type="submit">TEST</button>
+        </div>
+
+        <div class="readonly">
+            <textarea rows="8" cols="60" name="lines" th:text="${hash}"></textarea>
+        </div>
+    </form>
+    -->
+</div>
+
+<!--
+<div class="row">
+    <form method="post" th:action="@{/client/hash}" enctype="multipart/form-data">
+
+        <h1>Документ:</h1>
+        <div class="row">
+            <label for="clientFile">File:</label>
+            <input id="clientFile" type="file" name="file" th:value="*{file}"/>
+        </div>
+
+        <div class="row">
+            <button type="submit">TEST GOST3411_2012_512</button>
+        </div>
+        <div class="readonly">
+            <textarea rows="8" cols="60" name="lines" th:text="${hash}"></textarea>
+        </div>
+
+    </form>
+</div>
+-->
+
+<pre id="clientDataContainer"></pre>
+
+</body>
+</html>

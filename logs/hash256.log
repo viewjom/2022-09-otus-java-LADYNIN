@@ -1,0 +1,895 @@
+2023-03-11 14:20:48,238 INFO [pool-1-thread-1] [Hash256.java:17] id:2
+2023-03-11 14:20:48,240 INFO [pool-1-thread-1] [Hash256.java:17] id:1
+2023-03-11 14:58:19,557 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:21,561 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:21,569 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:23,572 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:23,572 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:25,573 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:25,575 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:27,579 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:27,580 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:29,582 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:29,584 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:31,587 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:31,588 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:33,597 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:33,600 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:35,604 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:35,605 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:37,607 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:37,609 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:39,612 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:39,613 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:41,615 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:41,616 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:43,618 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:43,619 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:45,622 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:45,623 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:47,624 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:47,625 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:49,625 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:49,625 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:51,626 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:51,626 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:53,628 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:53,628 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:55,628 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:55,629 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:57,631 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:57,631 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:58:59,632 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:58:59,632 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:01,634 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:01,634 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:03,634 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:03,635 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:05,637 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:05,638 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:07,645 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:07,646 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:09,648 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:09,648 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:11,664 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:11,665 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:13,666 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:13,666 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:15,668 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:15,668 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:16,918 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-11 14:59:16,919 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:2, value:StringValue[id=2, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 2, CreateTime = 1678535956724, serialized key size = 8, serialized value size = 34, headers = RecordHeaders(headers = [], isReadOnly = false), key = 2, value = StringValue[id=2, value=GR3411_2012_512])
+2023-03-11 14:59:16,954 INFO [pool-1-thread-1] [Hash256.java:17] id:2
+2023-03-11 14:59:16,955 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:18,957 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:18,959 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:20,963 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:20,963 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:22,963 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:22,965 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:24,967 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:24,969 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:26,969 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:26,970 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:28,971 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:28,972 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:30,976 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:30,977 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:32,979 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:32,980 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:34,981 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:34,981 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:36,982 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:36,983 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:38,984 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:38,985 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:40,985 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:40,986 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:42,988 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:42,989 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:44,989 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:44,990 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:46,992 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:46,993 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:48,994 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:48,994 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:51,000 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:51,001 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:53,004 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:53,005 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:55,006 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:55,007 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:57,008 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:57,008 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 14:59:59,036 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 14:59:59,038 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:00:01,050 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:00:01,051 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:00:03,053 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:00:03,054 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:00:05,058 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:00:05,059 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:00:07,061 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:00:07,061 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:00:09,063 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:00:09,067 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:00:19,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:00:21,307 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:00:49,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:00:51,306 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:01:19,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:01:21,307 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:01:49,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:01:51,307 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:02:19,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:02:21,308 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:02:49,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:02:51,313 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:03:19,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:03:21,306 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:03:49,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:03:51,309 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:04:19,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:04:21,307 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:04:49,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:04:51,305 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:05:19,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:05:21,306 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:05:49,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:05:51,305 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:06:19,303 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:06:21,310 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:06:49,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:06:51,304 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:07:19,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:07:21,307 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:07:49,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:07:51,306 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:08:19,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:08:21,306 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:08:49,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:08:51,305 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:09:19,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:09:21,306 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:09:49,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:09:51,309 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:10:19,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:10:21,304 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:10:49,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:10:51,307 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:11:19,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:11:21,305 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:11:49,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:11:51,306 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:12:19,304 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:12:19,450 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-11 15:12:19,450 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:3, value:StringValue[id=3, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 3, CreateTime = 1678536718676, serialized key size = 8, serialized value size = 34, headers = RecordHeaders(headers = [], isReadOnly = false), key = 3, value = StringValue[id=3, value=GR3411_2012_512])
+2023-03-11 15:12:19,484 INFO [pool-1-thread-1] [Hash256.java:17] id:3
+2023-03-11 15:12:49,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:12:51,306 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:13:19,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:13:26,104 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:13:28,109 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:13:56,401 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:13:58,407 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:14:18,211 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:14:20,215 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:15:18,214 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 15:15:20,221 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 15:16:31,635 INFO [pool-1-thread-1] [Hash256.java:17] id:4, value:GR3411_2012_512
+2023-03-11 19:38:36,237 INFO [main] [Hash256.java:47] id:null, value:null
+2023-03-11 19:39:22,973 INFO [main] [Hash256.java:47] id:null, value:null
+2023-03-11 22:51:20,414 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 22:51:22,419 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 22:52:20,413 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 22:52:22,414 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 22:53:20,399 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 22:53:22,408 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 22:54:20,401 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 22:54:22,404 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 22:54:41,475 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 22:54:43,503 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 22:55:41,450 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 22:55:41,649 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:2
+2023-03-11 22:55:41,650 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:15, value:StringValue[id=15, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 15, CreateTime = 1678564302129, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 15, value = StringValue[id=15, value=GR3411_2012_512])
+2023-03-11 22:55:41,669 INFO [pool-1-thread-1] [Hash256.java:39] id:15, value:GR3411_2012_512
+2023-03-11 22:55:41,670 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:16, value:StringValue[id=16, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 16, CreateTime = 1678564499340, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 16, value = StringValue[id=16, value=GR3411_2012_512])
+2023-03-11 22:55:41,672 INFO [pool-1-thread-1] [Hash256.java:39] id:16, value:GR3411_2012_512
+2023-03-11 22:56:41,449 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 22:56:43,451 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:09:57,941 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:10:00,508 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:10:57,941 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:10:59,949 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:11:57,941 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:11:59,944 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:12:57,940 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:12:59,942 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:16:14,986 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:16:16,989 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:17:14,984 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:17:16,986 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:18:14,985 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:18:16,989 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:19:14,985 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:19:16,992 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:19:23,411 INFO [main] [Hash256.java:45] id:null, value:null
+2023-03-11 23:19:23,416 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:19:25,419 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:20:23,411 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:20:23,837 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-11 23:20:23,840 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:17, value:StringValue[id=17, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 17, CreateTime = 1678565425948, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 17, value = StringValue[id=17, value=GR3411_2012_512])
+2023-03-11 23:20:23,870 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:18, value:StringValue[id=18, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 18, CreateTime = 1678565850133, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 18, value = StringValue[id=18, value=GR3411_2012_512])
+2023-03-11 23:20:23,871 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:19, value:StringValue[id=19, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 19, CreateTime = 1678565984324, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 19, value = StringValue[id=19, value=GR3411_2012_512])
+2023-03-11 23:21:23,412 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:21:25,413 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:22:23,413 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:22:25,415 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:23:23,411 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:23:25,411 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:54:40,411 INFO [main] [Hash256.java:45] id:null, value:null
+2023-03-11 23:54:40,423 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:54:42,428 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:55:40,412 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:55:42,414 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:56:40,411 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:56:42,413 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:57:40,412 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:57:42,496 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:58:40,411 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:58:42,438 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-11 23:59:40,414 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-11 23:59:42,421 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:00:40,411 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:00:42,411 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:01:40,412 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:01:42,416 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:02:24,674 INFO [main] [Hash256.java:47] id:null, value:null
+2023-03-12 00:02:24,705 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:02:26,710 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:03:24,676 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:03:26,678 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:04:24,675 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:04:26,676 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:04:53,516 INFO [main] [Hash256.java:47] id:null, value:null
+2023-03-12 00:04:53,526 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:04:55,528 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:05:53,518 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:05:53,724 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 00:05:53,724 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:20, value:StringValue[id=20, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 20, CreateTime = 1678568113664, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 20, value = StringValue[id=20, value=GR3411_2012_512])
+2023-03-12 00:05:53,742 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:21, value:StringValue[id=21, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 21, CreateTime = 1678568590903, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 21, value = StringValue[id=21, value=GR3411_2012_512])
+2023-03-12 00:05:53,743 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:22, value:StringValue[id=22, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 22, CreateTime = 1678568725453, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 22, value = StringValue[id=22, value=GR3411_2012_512])
+2023-03-12 00:06:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:06:55,520 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:07:53,516 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:07:55,518 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:08:53,518 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:08:55,521 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:09:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:09:55,517 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:10:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:10:55,518 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:11:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:11:55,519 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:12:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:12:55,519 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:13:53,519 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:13:55,527 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:14:53,516 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:14:55,521 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:15:53,516 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:15:55,519 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:16:53,516 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:16:55,517 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:17:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:17:55,517 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:18:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:18:55,522 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:19:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:19:55,521 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:20:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:20:55,518 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:21:53,517 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:21:55,517 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:22:54,451 INFO [main] [Hash256.java:47] id:null, value:null
+2023-03-12 00:22:54,468 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:22:56,469 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:23:54,458 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:23:54,668 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-12 00:23:54,669 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:23, value:StringValue[id=23, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 23, CreateTime = 1678569829880, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 23, value = StringValue[id=23, value=GR3411_2012_512])
+2023-03-12 00:24:54,452 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:24:56,454 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:26:49,361 INFO [main] [Hash256.java:48] id:null, value:null
+2023-03-12 00:26:49,368 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:26:51,383 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:27:49,362 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:27:51,363 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:28:49,366 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:28:51,369 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:35:47,508 INFO [main] [Hash256.java:47] id:null, value:null
+2023-03-12 00:35:47,512 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:35:49,513 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:36:47,509 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:36:49,509 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:37:47,509 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:37:49,510 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:37:55,244 INFO [main] [Hash256.java:47] id:null, value:null
+2023-03-12 00:37:55,247 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:37:57,250 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:38:55,245 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:38:55,448 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 00:38:55,448 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:24, value:StringValue[id=24, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 24, CreateTime = 1678570037637, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 24, value = StringValue[id=24, value=GR3411_2012_512])
+2023-03-12 00:38:55,470 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:25, value:StringValue[id=25, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 25, CreateTime = 1678570576420, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 25, value = StringValue[id=25, value=GR3411_2012_512])
+2023-03-12 00:38:55,470 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:26, value:StringValue[id=26, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 26, CreateTime = 1678570695588, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 26, value = StringValue[id=26, value=GR3411_2012_512])
+2023-03-12 00:39:55,247 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:39:57,254 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:40:55,245 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:40:57,248 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:41:27,750 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:41:29,752 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:42:27,784 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:42:29,785 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:43:08,912 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:43:10,917 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:44:08,911 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:44:10,914 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:44:20,304 INFO [main] [Hash256.java:49] id:null, value:null
+2023-03-12 00:44:20,306 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:44:22,312 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:45:20,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:45:20,521 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-12 00:45:20,521 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:27, value:StringValue[id=27, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 27, CreateTime = 1678571087197, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 27, value = StringValue[id=27, value=GR3411_2012_512])
+2023-03-12 00:46:20,305 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:46:22,307 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:46:55,524 INFO [main] [Hash256.java:49] ---------------------id:null, value:null
+2023-03-12 00:46:55,527 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:46:57,529 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:47:55,525 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:47:55,719 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-12 00:47:55,720 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:28, value:StringValue[id=28, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 28, CreateTime = 1678571272551, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 28, value = StringValue[id=28, value=GR3411_2012_512])
+2023-03-12 00:48:55,525 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:48:57,526 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:49:19,791 INFO [main] [Hash256.java:49] ---------------------id:null, value:null
+2023-03-12 00:49:19,798 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:49:21,801 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:50:19,796 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:50:19,988 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-12 00:50:19,989 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:29, value:StringValue[id=29, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 29, CreateTime = 1678571377879, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 29, value = StringValue[id=29, value=GR3411_2012_512])
+2023-03-12 00:51:19,796 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:51:21,802 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:51:52,956 INFO [main] [Hash256.java:49] ---------------------id:null, value:null
+2023-03-12 00:51:52,987 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:51:54,989 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:52:52,987 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:52:54,992 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 00:53:52,986 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 00:53:54,990 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:07:36,268 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:07:38,273 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:14:29,601 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:14:31,603 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:15:29,592 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:15:31,594 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:16:29,593 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:16:31,594 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:17:29,594 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:17:31,596 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:18:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:18:13,658 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:19:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:19:13,657 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:20:11,653 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:20:13,656 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:21:11,653 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:21:13,655 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:22:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:22:13,658 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:23:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:23:13,659 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:24:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:24:13,655 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:25:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:25:13,656 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:26:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:26:13,655 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:27:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:27:13,654 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:28:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:28:13,655 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:29:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:29:13,655 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:30:11,654 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:30:13,655 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:31:11,653 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:31:13,657 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:34:25,938 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:34:27,943 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:35:25,931 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:35:28,003 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:35:44,292 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:35:46,301 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:36:44,288 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:36:44,534 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 01:36:44,535 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:30, value:StringValue[id=30, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 30, CreateTime = 1678571537766, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 30, value = StringValue[id=30, value=GR3411_2012_512])
+2023-03-12 01:36:44,559 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:null, value:null
+2023-03-12 01:36:44,619 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 30, CreateTime = 1678571537766, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 30, value = StringValue[id=30, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+2023-03-12 01:36:44,623 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:31, value:StringValue[id=31, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 31, CreateTime = 1678572893431, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 31, value = StringValue[id=31, value=GR3411_2012_512])
+2023-03-12 01:36:44,624 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:null, value:null
+2023-03-12 01:36:44,630 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 31, CreateTime = 1678572893431, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 31, value = StringValue[id=31, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:36:44,634 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:32, value:StringValue[id=32, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 32, CreateTime = 1678573116147, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 32, value = StringValue[id=32, value=GR3411_2012_512])
+2023-03-12 01:36:44,634 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:null, value:null
+2023-03-12 01:36:44,647 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 32, CreateTime = 1678573116147, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 32, value = StringValue[id=32, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:37:08,240 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:37:10,248 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:38:08,241 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:38:08,456 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 01:38:08,457 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:30, value:StringValue[id=30, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 30, CreateTime = 1678571537766, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 30, value = StringValue[id=30, value=GR3411_2012_512])
+2023-03-12 01:38:08,477 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:30
+2023-03-12 01:38:08,515 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 30, CreateTime = 1678571537766, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 30, value = StringValue[id=30, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+2023-03-12 01:38:08,517 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:31, value:StringValue[id=31, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 31, CreateTime = 1678572893431, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 31, value = StringValue[id=31, value=GR3411_2012_512])
+2023-03-12 01:38:08,518 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:31
+2023-03-12 01:38:08,522 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 31, CreateTime = 1678572893431, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 31, value = StringValue[id=31, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:38:08,524 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:32, value:StringValue[id=32, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 32, CreateTime = 1678573116147, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 32, value = StringValue[id=32, value=GR3411_2012_512])
+2023-03-12 01:38:08,525 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:32
+2023-03-12 01:38:08,535 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 32, CreateTime = 1678573116147, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 32, value = StringValue[id=32, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:39:04,440 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:39:06,446 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:40:04,441 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:40:04,668 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 01:40:04,668 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:30, value:StringValue[id=30, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 30, CreateTime = 1678571537766, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 30, value = StringValue[id=30, value=GR3411_2012_512])
+2023-03-12 01:40:04,692 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:30
+2023-03-12 01:40:04,736 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 30, CreateTime = 1678571537766, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 30, value = StringValue[id=30, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+2023-03-12 01:40:04,739 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:31, value:StringValue[id=31, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 31, CreateTime = 1678572893431, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 31, value = StringValue[id=31, value=GR3411_2012_512])
+2023-03-12 01:40:04,739 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:31
+2023-03-12 01:40:04,741 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 31, CreateTime = 1678572893431, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 31, value = StringValue[id=31, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:40:04,742 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:32, value:StringValue[id=32, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 32, CreateTime = 1678573116147, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 32, value = StringValue[id=32, value=GR3411_2012_512])
+2023-03-12 01:40:04,743 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:32
+2023-03-12 01:40:04,745 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 32, CreateTime = 1678573116147, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 32, value = StringValue[id=32, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:41:04,441 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:41:04,456 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 01:41:04,459 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:33, value:StringValue[id=33, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 33, CreateTime = 1678574092470, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 33, value = StringValue[id=33, value=GR3411_2012_512])
+2023-03-12 01:41:04,461 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:33
+2023-03-12 01:41:04,467 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 33, CreateTime = 1678574092470, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 33, value = StringValue[id=33, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:41:04,472 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:34, value:StringValue[id=34, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 34, CreateTime = 1678574162030, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 34, value = StringValue[id=34, value=GR3411_2012_512])
+2023-03-12 01:41:04,473 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:34
+2023-03-12 01:41:04,481 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 34, CreateTime = 1678574162030, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 34, value = StringValue[id=34, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:41:04,482 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:35, value:StringValue[id=35, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 35, CreateTime = 1678574245687, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 35, value = StringValue[id=35, value=GR3411_2012_512])
+2023-03-12 01:41:04,483 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:35
+2023-03-12 01:41:04,485 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 35, CreateTime = 1678574245687, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 35, value = StringValue[id=35, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:42:04,440 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:42:04,450 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-12 01:42:04,452 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:36, value:StringValue[id=36, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 36, CreateTime = 1678574363215, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 36, value = StringValue[id=36, value=GR3411_2012_512])
+2023-03-12 01:42:04,454 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:36
+2023-03-12 01:42:04,461 ERROR [pool-1-thread-1] [StringValueConsumer.java:47] can't parse record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 36, CreateTime = 1678574363215, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 36, value = StringValue[id=36, value=GR3411_2012_512])
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:69)
+	at ru.otus.kafka.consumer.StringValueConsumer.poll(StringValueConsumer.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at ru.otus.Hash256.lambda$main$0(Hash256.java:62)
+	... 7 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: column "gr3411_2012_512" does not exist
+  Позиция: 29
+	... 17 common frames omitted
+2023-03-12 01:43:04,439 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:43:06,441 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:43:56,764 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:43:58,769 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:44:56,764 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:44:56,967 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-12 01:44:56,967 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:37, value:StringValue[id=37, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 37, CreateTime = 1678574665135, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 37, value = StringValue[id=37, value=GR3411_2012_512])
+2023-03-12 01:44:56,985 INFO [pool-1-thread-1] [Hash256.java:53] ---------------------id:GR3411_2012_512, value:37
+2023-03-12 01:45:56,765 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:45:58,766 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:46:56,764 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:46:58,765 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:47:56,764 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:47:58,779 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:48:56,763 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:48:58,775 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:49:56,763 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:49:58,764 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:50:56,763 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:50:58,767 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:52:58,964 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:53:00,968 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:53:58,964 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:54:00,967 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:54:58,965 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:55:00,969 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:55:58,964 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:56:00,968 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:56:58,964 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:57:00,965 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:57:58,965 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:58:00,972 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:58:27,220 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:58:29,225 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 01:59:27,233 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 01:59:27,970 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:2
+2023-03-12 01:59:27,971 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:38, value:StringValue[id=38, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 38, CreateTime = 1678575201154, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 38, value = StringValue[id=38, value=GR3411_2012_512])
+2023-03-12 01:59:28,091 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:39, value:StringValue[id=39, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 39, CreateTime = 1678575527262, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 39, value = StringValue[id=39, value=GR3411_2012_512])
+2023-03-12 02:00:40,398 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:00:42,405 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:01:40,397 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:01:40,617 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 02:01:40,617 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:38, value:StringValue[id=38, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 38, CreateTime = 1678575201154, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 38, value = StringValue[id=38, value=GR3411_2012_512])
+2023-03-12 02:01:40,643 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:39, value:StringValue[id=39, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 39, CreateTime = 1678575527262, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 39, value = StringValue[id=39, value=GR3411_2012_512])
+2023-03-12 02:05:43,911 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:05:45,915 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:06:43,910 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:06:45,929 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:07:43,912 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:07:45,917 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:08:43,910 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:08:45,913 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:09:43,911 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:09:45,948 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:09:55,881 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:09:57,892 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:10:55,882 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:10:56,153 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 02:10:56,154 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:38, value:StringValue[id=38, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 38, CreateTime = 1678575201154, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 38, value = StringValue[id=38, value=GR3411_2012_512])
+2023-03-12 02:10:56,204 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:39, value:StringValue[id=39, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 39, CreateTime = 1678575527262, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 39, value = StringValue[id=39, value=GR3411_2012_512])
+2023-03-12 02:10:56,280 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:40, value:StringValue[id=40, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 40, CreateTime = 1678575663762, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 40, value = StringValue[id=40, value=GR3411_2012_512])
+2023-03-12 02:11:55,760 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:11:57,764 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:12:55,761 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:12:55,986 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 02:12:55,986 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:38, value:StringValue[id=38, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 38, CreateTime = 1678575201154, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 38, value = StringValue[id=38, value=GR3411_2012_512])
+2023-03-12 02:12:56,012 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:39, value:StringValue[id=39, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 39, CreateTime = 1678575527262, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 39, value = StringValue[id=39, value=GR3411_2012_512])
+2023-03-12 02:12:56,014 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:40, value:StringValue[id=40, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 40, CreateTime = 1678575663762, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 40, value = StringValue[id=40, value=GR3411_2012_512])
+2023-03-12 02:13:55,760 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:13:55,786 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:3
+2023-03-12 02:13:55,791 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:41, value:StringValue[id=41, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 41, CreateTime = 1678575963196, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 41, value = StringValue[id=41, value=GR3411_2012_512])
+2023-03-12 02:13:55,796 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:42, value:StringValue[id=42, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 42, CreateTime = 1678576217548, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 42, value = StringValue[id=42, value=GR3411_2012_512])
+2023-03-12 02:13:55,802 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:43, value:StringValue[id=43, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 43, CreateTime = 1678576337240, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 43, value = StringValue[id=43, value=GR3411_2012_512])
+2023-03-12 02:14:55,772 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:14:57,774 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:15:55,760 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:15:57,904 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:16:16,893 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:16:18,898 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:17:16,895 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:17:17,099 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-12 02:17:17,099 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:44, value:StringValue[id=44, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 44, CreateTime = 1678576603018, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 44, value = StringValue[id=44, value=GR3411_2012_512])
+2023-03-12 02:18:16,895 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:18:18,895 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:19:16,893 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:19:18,896 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:20:11,979 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:20:13,986 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:21:11,949 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:21:12,159 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:1
+2023-03-12 02:21:12,160 INFO [pool-1-thread-1] [StringValueConsumer.java:44] key:45, value:StringValue[id=45, value=GR3411_2012_512], record:ConsumerRecord(topic = MyTopic, partition = 0, leaderEpoch = 0, offset = 45, CreateTime = 1678576827145, serialized key size = 8, serialized value size = 35, headers = RecordHeaders(headers = [], isReadOnly = false), key = 45, value = StringValue[id=45, value=GR3411_2012_512])
+2023-03-12 02:22:11,948 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:22:13,964 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:23:11,983 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:23:13,984 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:24:11,951 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:24:13,953 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:25:11,949 INFO [pool-1-thread-1] [StringValueConsumer.java:36] poll records
+2023-03-12 02:25:13,951 INFO [pool-1-thread-1] [StringValueConsumer.java:39] polled records.counter:0
+2023-03-12 02:26:44,442 INFO [pool-1-thread-1] [Hash256.java:42] Update key:46, value:GR3411_2012_512
+2023-03-12 02:33:03,901 INFO [pool-1-thread-1] [Hash256.java:39] Update key:47, value:GR3411_2012_512
+2023-03-12 03:11:18,629 INFO [pool-1-thread-1] [Jdbc.java:16] Update key:52, value:GR3411_2012_512
+2023-03-12 11:53:34,691 INFO [pool-1-thread-1] [JdbcImpl.java:38] Update key:54, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02
+2023-03-12 23:13:30,124 INFO [pool-1-thread-1] [Hash256.java:33] Get key:1, value:StribogB256
+2023-03-12 23:13:30,228 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:1, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02
+2023-03-12 23:13:30,243 INFO [pool-1-thread-1] [Hash256.java:33] Get key:2, value:StribogB256
+2023-03-12 23:13:30,250 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:2, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02
+2023-03-12 23:13:30,322 INFO [pool-1-thread-1] [Hash256.java:33] Get key:3, value:StribogB256
+2023-03-12 23:13:30,390 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:3, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02
+2023-03-12 23:14:29,692 INFO [pool-1-thread-1] [Hash256.java:33] Get key:1, value:StribogB256
+2023-03-12 23:14:29,707 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:1, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02
+2023-03-12 23:42:07,985 INFO [pool-1-thread-1] [Hash256.java:35] Get key:1, value:StribogB256
+2023-03-12 23:42:08,011 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:1, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02
+2023-03-12 23:42:08,019 INFO [pool-1-thread-1] [Hash256.java:35] Get key:1, value:StribogB256
+2023-03-12 23:42:08,023 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:1, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02
+2023-03-12 23:42:08,028 INFO [pool-1-thread-1] [Hash256.java:35] Get key:2, value:StribogB256
+2023-03-12 23:42:08,033 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:2, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02
+2023-03-12 23:44:07,640 INFO [pool-1-thread-1] [Hash256.java:35] Get key:4, value:StribogB256
+2023-03-12 23:44:07,650 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:4, value:C06B50C56CEB0CD1193373E6C6742CFB372E5F39F96477C134AAD46479C74B85B337A090E67D30E24EE83F0B98F68FA9A42D07C30CE95B0E566EF89B4D73FA17
+2023-03-12 23:44:07,664 INFO [pool-1-thread-1] [Hash256.java:35] Get key:3, value:StribogB256
+2023-03-12 23:44:07,669 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:3, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02
+2023-03-13 00:40:08,991 INFO [pool-1-thread-1] [Hash256.java:35] Get key:5, value:StribogB256
+2023-03-13 00:40:09,001 INFO [pool-1-thread-1] [JdbcImpl.java:39] Update key:5, value:EDE5F34F43C41CA2583984CE047E58FAADD72CA35406960B94CA81FAB981C2725EC4C58F748CF1E4D39412C2FF897972673834032449749E6E9340CA2EB18B02

@@ -1,0 +1,26 @@
+server:
+  port: 8080
+app:
+  client2-list-page:
+    msg: Коля любит Мамбу!!!
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.10.173:5430/demoDB
+    username: usr
+    password: pwd
+  flyway:
+    enabled: true
+  rabbitmq:
+    addresses: "192.168.10.173"
+  listener:
+    simple:
+      default-requeue-rejected: false
+    thymeleaf:
+      prefix: classpath:/templates
+
+
+logging:
+  level:
+    org.springframework.jdbc.core.JdbcTemplate: TRACE
+kladr:
+  url: https://kladr-api.ru/api.php?contentType=building&withParent=1&zip=
