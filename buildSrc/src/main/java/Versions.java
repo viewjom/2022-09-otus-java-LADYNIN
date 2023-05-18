@@ -29,5 +29,7 @@ public interface Versions {
     String grpc = "1.44.1";
     String wiremock = "3.0.0-beta-2";
     String r2dbcPostgresql = "0.8.13.RELEASE";
+
+    String bouncycastle = "1.56";
 }
 

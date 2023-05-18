@@ -1,0 +1,15 @@
+jib {
+    container.mainClass = "ru.otus.Main"
+    container.creationTime = 'USE_CURRENT_TIMESTAMP'
+    from {
+        image = 'bellsoft/liberica-openjdk-alpine-musl:17.0.2-9'
+    }
+    to {
+        tags = [project.version.toString()]
+        image = 'registry.gitlab.com/viewjom/test'
+        auth {
+            username = gitlabUser ?: ""
+            password =  gitlabPassword ?: ""
+        }
+    }
+}
